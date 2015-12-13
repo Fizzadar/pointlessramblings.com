@@ -1,0 +1,48 @@
+<link rel="stylesheet" type="text/css" href="$=url/inc/posts/selectedjs/selected.min.css" />
+<link rel="stylesheet" type="text/css" href="$=url/inc/posts/selectedjs/selected-light.min.css" />
+
+<script type="text/javascript" src="$=url/inc/posts/selectedjs/selected.min.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+        selected.init();
+    });
+</script>
+
+[`selected.js`](http://github.com/Fizzadar/selected.js) is a dependency free `<select>` replacement. It supports both single and multiple select boxes, has a tiny JS & DOM footprint and is incredibly easy to style.
+
+<div style="width: 50%; margin: 50px auto;">
+    <select multiple class="selected selected-light">
+        <option>Option one</option>
+        <option selected>Option two</option>
+        <option selected>Option three</option>
+        <option>Option four</option>
+        <option>Option five</option>
+    </select>
+</div>
+
+Setting this up is as simple as:
+
+    <link type="text/css" rel="stylesheet" href="selected.min.css" />
+    <link type="text/css" rel="stylesheet" href="selected-light.min.css" />
+
+    <select multiple class="selected selected-light">
+        <option>Option one</option>
+        <option>Option two</option>
+        ...
+    </select>
+    
+    <script type="text/javascript" src="selected.min.js"></script>
+    <script type="text/javascript">selected.init();</script>
+
+--MORE--
+
+I created `selected.js` because I could not find a solid `<select>` replacement that didn't rely on jQuery. These days I often find jQuery to be [unnecessary](http://youmightnotneedjquery.com); I don't want to include an extra ~80+kb just for the sake of  usable `<select>` boxes.
+
+`selected.js` keeps things as simple as possible by swapping out the original element with two lists, wrapped in a container. One displays the active options and the other the dropdown options. There's no complicated DOM structure or appending of elements to the body.
+
+The end result is a `<select>` replacement that is lightweight in terms of both code (~4kb) and DOM usage. This makes it highly performant compared to it's jQuery based rivals. The flip side, of course, is that it only supports good/"modern" browsers (IE10+).
+
+If you're looking for absolute speed, or just something simple, you might wish to give `selected.js` a try.
+
+
+[**View on GitHub**](http://github.com/Fizzadar/selected.js) | [**View examples page**](http://fizzadar.com/selected.js/)
