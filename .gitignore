@@ -1,0 +1,5 @@
+.luapress
+templates/default
+posts/draft
+build/
+production/
