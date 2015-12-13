@@ -32,7 +32,7 @@ I've wanted to support a `--watch` CLI argument for a long time - and now it's h
 
 Luapress now has support for `.mustache` templates thanks to the [Lustache library](http://olivinelabs.com/lustache/). The old `.lhtml` templates remain supported, but since they're a hack I put together one evening, `.mustache` now powers the default theme.
 
-Sometimes full Lua capability is useful in templates, so a mix of template types is also allowed. For example - this blog is `.mustache` powered except `header.lhtml` & `footer.lhtml` which handle some logic.
+Sometimes full Lua capability is useful in templates, so a mix of template types is also allowed. For example - this blog is `.mustache` powered except `header.lhtml` & `footer.lhtml` which [handle some logic](https://github.com/Fizzadar/pointlessramblings.com/tree/develop/templates/pointless).
 
 
 ### Build Options
