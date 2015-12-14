@@ -5,7 +5,7 @@ Recently static website generators have been gaining [lots of attention](http://
 
 ### Environments
 
-With v2, you could pass in a URL to build against, and manually switch from the default `build` output directory using `--build`. v3 does away with this complex setup in favour of environments. These are defined in `config.lua` and basically define either one or both a URL and output directory. For example, my `config.lua` for this site looks like:
+With v2, you could pass in a URL to build against, and manually switch from the default `build` output directory using `--build`. v3 removes this option in favour of environments defined in `config.lua`. For example, [this site's config](https://github.com/Fizzadar/pointlessramblings.com/blob/develop/config.lua):
 
     config = {
         -- Default URL (pointing to default build/ output dir)
@@ -25,7 +25,7 @@ With v2, you could pass in a URL to build against, and manually switch from the 
 
 ### Watch
 
-I've wanted to support a `--watch` CLI argument for a long time - and now it's here. Running Luapress with `--watch` will cause it to watch for changes in `posts/`, `pages/` and your template (as of v3.2) and automatically build every time a change is detected. This makes the write -> build -> check feedback loop much, much easier to manage.
+This has been [in planning](https://github.com/Fizzadar/Luapress/issues/6) a long time now; running Luapress with `--watch` will cause it to watch for changes in `posts/`, `pages/` and your template (as of v3.2) and automatically build every time a change is detected. This makes the write -> build -> check feedback loop much, much easier to manage.
 
 
 ### Mustache (v3.1)
