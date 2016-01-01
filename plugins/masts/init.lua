@@ -1,5 +1,10 @@
 local lfs = require 'lfs'
 
+local months = {
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+}
+
 
 local function process()
     local masts = {}
@@ -8,13 +13,11 @@ local function process()
         if f ~= '.' and f ~= '..' then
             local attributes = lfs.attributes('inc/masts/home/' .. f)
             if attributes.mode == 'directory' then
-                for mast in lfs.dir('inc/masts/home/' .. f) do
-                    if mast:sub(-4) == '.jpg' then
-                        mast = 'inc/masts/home/' .. f .. '/' .. mast
-                        local mast_attributes = lfs.attributes(mast)
-                        if mast_attributes and mast_attributes.mode == 'file' then
-                            table.insert(masts, 1, mast)
-                        end
+                for _, month in ipairs(months) do
+                    mast = 'inc/masts/home/' .. f .. '/' .. month .. '.jpg'
+                    local mast_attributes = lfs.attributes(mast)
+                    if mast_attributes and mast_attributes.mode == 'file' then
+                        table.insert(masts, 1, mast)
                     end
                 end
             end
