@@ -15,13 +15,13 @@ Let's look at an example - running a Docker Registry (v2). I want to:
 
 I don't want such a box in my Kubernetes cluster (it's a one-off), and I need none of Dockers scaling properties, so I'll run it direct on hardware.
 
-Well, guess what? There's no install instructions for that. In fact, the "offical" way is _use the Docker image_. Luckily the `Dockerfile` isn't much more than a limited shell script, so following the trail of [docker/distrubtion](https://github.com/docker/distribution) -> [Registry Image](https://hub.docker.com/_/registry/) -> [Dockerfile](https://github.com/docker/distribution-library-image/blob/0258654c749c96ca876b1d9ce456bee42b6794de/Dockerfile) I was able to recover manual install instructions (all two of them).
+Well, guess what? There's no install instructions for that. In fact, the "official" way is _use the Docker image_. Luckily the `Dockerfile` isn't much more than a limited shell script, so following the trail of [docker/distribution](https://github.com/docker/distribution) -> [Registry Image](https://hub.docker.com/_/registry/) -> [Dockerfile](https://github.com/docker/distribution-library-image/blob/0258654c749c96ca876b1d9ce456bee42b6794de/Dockerfile) I was able to recover manual install instructions (all two of them).
 
 --MORE--
 
 .
 
-While we're discussing the `Dockerfile`, lets look at some other services better suited off-Docker: datastores. Say you want to run an Elasticsearch or Galera cluster - Docker containers might offer a ridiculously quick setup and look awfully tempting.
+While we're discussing the `Dockerfile`, let's look at some other services better suited off-Docker: datastores. Say you want to run an Elasticsearch or Galera cluster - Docker containers might offer a ridiculously quick setup and look awfully tempting.
 
 But wait - how do we configure these services for multiple environments (test/prod clusters)? They don't read our `ENV`vars, nor do they know of our internal service discovery tools. These kind of systems have their own configs, be it `elasticsearch.yml` or `my.cnf`. The `Dockerfile` format is completely fucking useless at this kind of thing.
 
