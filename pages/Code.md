@@ -7,7 +7,7 @@ A list of projects I have built/am building & maintain. Newest first. _Almost_ e
 
 + **Language:** Python, JavaScript
 + **Description:** Source engine server stats & analysis
-+ **Links:** [Website](http://sourceserverstats.com) & [GitHub](https://github.com/Fizzadar/SourceServerStats)
++ **Links:** [GitHub](https://github.com/Fizzadar/SourceServerStats)
 
 
 ### selected.js
