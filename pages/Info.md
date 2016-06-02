@@ -5,7 +5,7 @@ This blog is written by Nick Barrett, a (mostly web) hacker. Check out some some
 
 ### Website Info
 
-Generated HTML by [Luapress](http://luapress.org). Served by [Nginx](http://nginx.org). Transported by a VM hosted on a server in [Germany](http://afterburst.com/datacenters). Designed for screens of all sizes. Source [on GitHub](https://github.com/Fizzadar/pointlessramblings.com).
+Generated HTML by [Luapress](http://luapress.org). Served by a VM hosted on a server in [Germany](http://afterburst.com/datacenters). Designed for screens of all sizes. Source [on GitHub](https://github.com/Fizzadar/pointlessramblings.com).
 
 
 ### Index Masts
