@@ -1,4 +1,4 @@
-.luapress
+.luapress*
 templates/default
 posts/draft
 build/
