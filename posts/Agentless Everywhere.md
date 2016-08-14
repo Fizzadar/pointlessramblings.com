@@ -14,7 +14,7 @@ Another good example of "agent bloat" is Chef (which also bundles it's own Ruby 
 
 .
 
-The [case]() [for]() [agent]() based systems is mostly centered around security and the ability to provide more in-depth data (eg using a MySQL library to collect stats).
+The [case](https://www.sciencelogic.com/blog/agent-vs-agentless-monitoring) [for](http://www.midvision.com/resources-blog/bid/273230/Agent-vs-Agentless-Deployments-Part-1-Agent-Based-Deployments) [agent](https://www.controlup.com/blog/agent-agentless/) based systems is mostly centered around security and the ability to provide more in-depth data (eg using a MySQL library to collect stats).
 
 From a security perspective I would argue that installing someone elses software with often root-level access is _not_ secure - even if you trust they won't fiddle with your shit. Without reading (if even possible) through the entire source code, it's impossible to guarantee bad stuff won't happen.
 
