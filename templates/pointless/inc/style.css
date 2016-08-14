@@ -113,10 +113,6 @@ p code, ul code {
 div.wide {
     width: 100%;
 }
-div.wide.mast {
-    max-height: 250px;
-    overflow-y: hidden;
-}
 div.wide.mast.home {
     float: left;
     margin-top: -1px;
