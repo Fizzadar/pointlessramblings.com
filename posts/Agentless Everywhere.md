@@ -1,12 +1,13 @@
+$date=13/08/2016
 $mast=agentless_everywhere
 
 In a world where everything must be distributed across multiple servers, datacenters and continents the task of managing & monitoring server state has become significantly more complex.
 
-Hundreds of solutions have spawned in recent years - and in general these tools can be split into two groups: those with, and those without, agents on the target servers.
+Hundreds of solutions have spawned in recent years - and in general these tools can be split into two groups: [those](https://sensuapp.org) [with](https://puppet.com), and [those](https://github.com/Fizzadar/pyinfra) [without](https://github.com/fabric/fabric), agents on the target servers. I'm writing this post to argue in favour of the agentless tools.
 
 .
 
-I always avoid agent based systems where possible. One shouldn't need to install (sometimes closed source!) software on a server to have it managed or monitored. Agents take up precious CPU, memory and disk space which should be reserved for the actual thing the server is meant to be doing. Then there's updates - does it make sense to have to update _every_ server to fix a bug in the agent? With an agentless tool you'd just update a client or have the service provider handle it for you.
+One shouldn't need to install (sometimes closed source!) software on a server to have it managed or monitored. Agents take up precious CPU, memory and disk space which should be reserved for the actual thing the server is meant to be doing. Then there's updates - does it make sense to have to update _every_ server to fix a bug in the agent? With an agentless tool you'd just update a client or have the service provider handle it for you.
 
 Take Sensu for example, it weighs in at ~30MB of package data (via apt) including a full Ruby interpreter. And then there's the check files - every time these change they need to be synced to all the servers that use them. The problem really begins to manifest at scale, where deploying such changes takes a non-trivial amount of time.
 
