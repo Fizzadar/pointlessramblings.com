@@ -13,6 +13,8 @@ Take Sensu for example, it weighs in at ~30MB of package data (via apt) includin
 
 Another good example of "agent bloat" is Chef (which also bundles it's own Ruby interpreter) - the base `ubuntu` Docker image weighs in at a cool 126MB - not too shabby. Want to install stuff on it with Chef solo? You might try the `linuxkonsult/chef-solo` image - it's 671MB. That's a whopping 545MB of pointless bloat!
 
+--MORE--
+
 .
 
 The [case](https://www.sciencelogic.com/blog/agent-vs-agentless-monitoring) [for](http://www.midvision.com/resources-blog/bid/273230/Agent-vs-Agentless-Deployments-Part-1-Agent-Based-Deployments) [agent](https://www.controlup.com/blog/agent-agentless/) based systems is mostly centered around security and the ability to provide more in-depth data (eg using a MySQL library to collect stats).
