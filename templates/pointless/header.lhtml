@@ -47,7 +47,9 @@
         </div>
     <? elseif self:get('home') then ?>
         <div class="wide mast home">
-            <img src="<?=self:get('url') ?>/inc/masts/home/<?=os.date('%Y') ?>/<?=os.date('%B') ?>.jpg" />
+            <a href="<?=self:get('url') ?>/pages/Info/#IndexMasts">
+                <img src="<?=self:get('url') ?>/inc/masts/home/<?=os.date('%Y') ?>/<?=os.date('%B') ?>.jpg" />
+            </a>
         </div>
     <? end ?>
 
