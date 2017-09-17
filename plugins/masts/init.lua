@@ -28,13 +28,11 @@ local function process()
 
     for k, v in ipairs(masts) do
         out = out .. [[
-<div class="wide mast">
     <img src="]] .. config.url .. '/' .. v .. [[" />
-</div>
 ]]
     end
 
-    return out
+    return '<div style="font-size:0;">' .. out .. '</div>'
 end
 
 return process

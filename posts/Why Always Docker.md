@@ -1,5 +1,6 @@
 $title=Why always Docker?
 $mast=docker_all_the_things
+$date=17/01/2016
 
 I love Docker. I've recently spent a lot of time learning about both Docker & Kubernetes. Combined with stateless containers they provide fantastic scalability, service discovery and near-instant deploy times (excluding initial image build!).
 

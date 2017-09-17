@@ -1,4 +1,5 @@
 $mast=sourcestats
+$date=29/07/2015
 
 [A long while back](https://web.archive.org/web/20101121000430/http://sourceserverstats.com/) I built a built a web app which provided search and aggregated stats for Valve gameservers. At any time there are ~50k of these registered with the "master server", but only 20-40% of these are accessible publically. The original collector was written in PHP and would take about 20 minutes to discover and collect stats from the gameservers. I have rebuilt the collector in Python and it's able to collect all ~50k servers in under a minute, given a suitable (>=100mbit) connection.
 
