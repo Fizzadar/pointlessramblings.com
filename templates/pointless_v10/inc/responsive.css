@@ -1,0 +1,57 @@
+@media all and (min-width: 1920px) {
+    section#sidebar {
+        padding-left: 130px;
+        padding-right: 130px;
+        width: 540px;
+    }
+
+    section#sidebar h1 {
+        margin-left: -130px;
+        margin-right: -130px;
+    }
+    section#sidebar h1 a {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    section#mast, section#content {
+        margin-left: 540px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    section#sidebar {
+        position: relative;
+        width: 100%;
+        padding-bottom: 0;
+    }
+    section#sidebar h1 {
+        font-size: 40px;
+    }
+    section#sidebar h1 a {
+        padding: 10px 30px;
+    }
+
+    nav {
+        margin: 0 0 0 -10px;
+        height: 57px;
+    }
+    nav a {
+        clear: none;
+    }
+    nav a:hover {
+        padding-right: 10px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    section#content {
+        margin-left: 0;
+    }
+
+    section#mast {
+        margin-left: 0;
+    }
+}

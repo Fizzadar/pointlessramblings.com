@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+      <title>{{title}}</title>
+      <link>{{{url}}}</link>
+{{#posts}}
+      <item>
+        <title>{{title}}</title>
+          <description>
+          {{#excerpt}}
+            {{{excerpt}}}
+          {{/excerpt}}
+          {{^excerpt}}
+            {{{content}}}
+          {{/excerpt}}
+          </description>
+          <link>{{{url}}}/{{{config.posts_dir}}}/{{{link}}}</link>
+          <guid>{{{url}}}/{{{config.posts_dir}}}/{{{link}}}</guid>
+      </item>
+{{/posts}}
+    </channel>
+</rss>

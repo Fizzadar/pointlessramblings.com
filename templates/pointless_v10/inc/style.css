@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i|Kelly+Slab');
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+*::selection {
+    background: #6A44A1;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Asap;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid #F7F7F7;
+    color: #6A44A1;
+    transition: 150ms;
+}
+a:hover {
+    border-color: #D7D7D7;
+    color: black;
+}
+
+p, ul {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+blockquote {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    color: #A7A7A7;
+    margin: 0 0 0 30px;
+}
+
+code {
+    font-family: Courier;
+    background: #FCFCFC;
+    padding: 2px;
+}
+pre {
+    border: 1px dashed #E7E7E7;
+    background: #FCFCFC;
+}
+pre code, pre code.hljs {
+    background: #FCFCFC;
+}
+code::selection, pre::selection, pre *::selection {
+    background: green;
+    color: white;
+}
+
+section#sidebar {
+    background: #F7F7F7;
+    width: 340px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 30px;
+}
+section#sidebar h1 {
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    font-size: 60px;
+    background: #6A44A1;
+    margin: -30px -30px 0 -30px;
+}
+section#sidebar h1 a {
+    color: white;
+    padding: 30px;
+    display: block;
+    transition: 150ms;
+}
+section#sidebar h1 a:hover {
+    color: #333;
+    background: #F7F7F7;
+}
+section#sidebar a {
+    border: none;
+}
+
+nav {
+    margin: 45px 0 0 0;
+}
+nav li {
+    list-style: none;
+}
+nav a {
+    font-size: 30px;
+    font-family: 'Kelly Slab';
+    float: left;
+    clear: both;
+    background: white;
+    padding: 10px;
+    color: #333;
+    transition: 150ms;
+}
+nav a:hover {
+    padding-right: 60px;
+    color: #6A44A1;
+}
+
+footer {
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    color: #C7C7C7;
+}
+    footer img {
+        width: 32px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    footer a {
+        color: #A7A7A7;
+    }
+    footer a:hover {
+        color: #333;
+    }
+
+section#mast {
+    margin-left: 340px;
+    height: 422px;
+    background-position: center 60%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+section#mast.small {
+    height: 206px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+section#content {
+    margin-left: 340px;
+    position: relative;
+}
+section#content img {
+    max-width: 100%;
+}
+
+div.post {}
+div.post h2 {
+    font-size: 38px;
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    margin: 0;
+    padding: 30px;
+    background: white;
+    display: inline-block
+}
+div.post h2.single {
+    margin: 40px 0 34px 0;
+}
+div.post h2.single.page {
+    margin: 50px 0 49px 0;
+}
+div.post h2 span.meta {
+    font-family: Asap;
+    color: #666;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+}
+div.post h2 a {
+    display: block;
+    padding: 30px;
+    margin: -30px;
+    transition: 150ms;
+    border: 0px solid #F7F7F7;
+}
+div.post h2 a:hover {
+    border-left-width: 30px;
+}
+
+div.post p,
+div.post blockquote,
+div.post ul,
+div.post h3,
+div.post pre {
+    padding: 0 30px;
+    max-width: 690px;
+}
+div.post pre {
+    max-width: 720px;
+}
+div.post ul {
+    margin-left: 30px;
+}
+div.post h3 {
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    font-size: 28px;
+    margin: 30px 0 0 0;
+}
+
+
+/*
+    Work blocks
+*/
+
+div.work {
+    display: inline-block;
+    width: 45%;
+}
+    div.work p.description {
+        margin-bottom: 5px;
+    }
+    div.work p.meta {
+        margin-top: 0;
+        font-size: 16px;
+        color: #666;
+    }
+        div.work p.meta span {
+            color: #A7A7A7;
+        }
+    div.work a.button {
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        -webkit-apperance: none;
+        background: #F7F7F7;
+        color: #333;
+    }
+    div.work a.button:hover {
+        background: #6A44A1;
+        color: white;
+    }

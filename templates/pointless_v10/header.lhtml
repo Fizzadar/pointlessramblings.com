@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--meta--><title><? if self:get('single') then ?><?=self:get('post').title ?> - <? end ?><? if self:get('page') then ?><?=self:get('page').title ?> - <? end ?><?=self:get('title') ?></title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="pointless ramblings, fizzadar, nick barrett" />
+    <meta name="description" content="The pointless ramblings of Nick Barrett, a (mostly web) hacker" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="<?=self:get('url') ?>/inc/template/highlight/tomorrow.css" />
+    <link rel="stylesheet" type="text/css" href="<?=self:get('url') ?>/inc/template/style.css" />
+    <link rel="stylesheet" type="text/css" href="<?=self:get('url') ?>/inc/template/responsive.css" />
+</head>
+<body>
+    <section id="sidebar">
+        <h1><a href="<?=self:get('url') ?>"><?=self:get('title') ?></a></h1>
+
+        <nav>
+            <?=self:get('page_links') ?>
+        </nav>
+
+        <footer>
+            <img src="<?=self:get('url') ?>/inc/template/img/keepcalm.png" />
+            <a href="<?=self:get('url') ?>/<?=self:get('config').pages_dir ?>/Copyright"><strike>&copy;</strike> no copyright</a><br />
+            <span class="right">
+                Built Aug 02 with <a href="http://luapress.org">Luapress</a>
+            </span>
+        </footer>
+    </section>
+
+    <? if self:get('home') then ?>
+        <section id="mast" style="background-image: url('<?=self:get('url') ?>/inc/masts/home/<?=os.date('%Y') ?>/<?=os.date('%B') ?>.jpg');">
+        </section>
+    <? else ?>
+        <section id="mast" class="small"<? if self:get('single') and self:get('post').mast then ?> style="background-image: url('<?=self:get('url') ?>/inc/masts/<?=self:get('post').mast ?>.jpg');"<? end ?>>
+        </section>
+    <? end ?>
+
+    <section id="content">

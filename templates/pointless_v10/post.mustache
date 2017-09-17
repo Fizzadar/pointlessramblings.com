@@ -1,0 +1,17 @@
+<div class="post">
+    {{^single}}
+        <h2><a href="{{{url}}}/{{{config.posts_dir}}}/{{{post.link}}}">
+            {{post.title}}
+            <span class="meta">{{#format_date}}{{post.time}}{{/format_date}}</span>
+        </a></h2>
+    {{/single}}
+
+    {{#single}}
+        <h2 class="single">
+            {{post.title}}
+            <span class="meta">{{#format_date}}{{post.time}}{{/format_date}}</span>
+        </h2>
+
+        {{{post.content}}}
+    {{/single}}
+</div>
