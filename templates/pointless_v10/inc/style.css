@@ -9,6 +9,10 @@
     background: #6A44A1;
     color: white;
 }
+*::-moz-selection {
+    background: #6A44A1;
+    color: white;
+}
 
 body {
     margin: 0;
@@ -45,15 +49,22 @@ code {
     font-family: Courier;
     background: #FCFCFC;
     padding: 2px;
+    border: 1px dashed #E7E7E7;
 }
 pre {
     border: 1px dashed #E7E7E7;
+    border-left: none;
     background: #FCFCFC;
 }
 pre code, pre code.hljs {
     background: #FCFCFC;
+    border: none;
 }
 code::selection, pre::selection, pre *::selection {
+    background: green;
+    color: white;
+}
+code::-moz-selection, pre::-moz-selection, pre *::-moz-selection {
     background: green;
     color: white;
 }
