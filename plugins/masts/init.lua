@@ -9,7 +9,17 @@ local months = {
 local function process()
     local masts = {}
 
+    -- Build list of year directories
+    local year_dirs = {}
     for f in lfs.dir('inc/masts/home') do
+        if f ~= '.' and f ~= '..' then
+            table.insert(year_dirs, f)
+        end
+    end
+
+    table.sort(year_dirs)
+
+    for _, f in ipairs(year_dirs) do
         if f ~= '.' and f ~= '..' then
             local attributes = lfs.attributes('inc/masts/home/' .. f)
             if attributes.mode == 'directory' then
