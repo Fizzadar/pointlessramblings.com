@@ -10,6 +10,6 @@ Generated HTML by [Luapress](http://luapress.org). Served by a VM hosted on a se
 
 ### Index Masts
 
-Every month (normally by the 1st!) I create a new mast for the homepage - below is an archive of them all.
+From time to time (used to be monthly!) I update the mast image on the homepage - below is an archive of them all:
 
 $! masts !$
