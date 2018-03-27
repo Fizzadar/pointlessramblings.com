@@ -1,3 +1,9 @@
+    <? if not self:get('page') then ?>
+        <div class="post"><h2>
+            <a class="right" href="<?=self:get('url') ?>/<?=self:get('config').pages_dir ?>/archive">All the ramblings &rarr;</a>
+        </h2></div>
+    <? end ?>
+
     </section>
 
     <script type="text/javascript" src="<?=self:get('url') ?>/inc/template/highlight/highlight.pack.js"></script>
