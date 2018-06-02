@@ -33,4 +33,4 @@ I put together the result in a [Google Docs spreadsheet](https://docs.google.com
 
 ### Conclusion
 
-The results can be split in to two groups; one in which images loose almost no quality but space savings are minor and another where the quality is sacrificed in favour of significantly higher space savings. There is a clear winner here though, I will definitely use **pngquant** as my go-to optimiser, as it offers fantastic size reduction while keeping an acceptable/good level of quality.
+The results can be split in to two groups; one in which images lose almost no quality but space savings are minor and another where the quality is sacrificed in favour of significantly higher space savings. There is a clear winner here though, I will definitely use **pngquant** as my go-to optimiser, as it offers fantastic size reduction while keeping an acceptable/good level of quality.
