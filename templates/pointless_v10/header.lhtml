@@ -21,7 +21,7 @@
 
         <footer>
             <img src="<?=self:get('url') ?>/inc/template/img/keepcalm.png" />
-            <a href="<?=self:get('url') ?>/<?=self:get('config').pages_dir ?>/Copyright"><strike>&copy;</strike> no copyright</a><br />
+            Est. 2006 &middot; <a href="<?=self:get('url') ?>/<?=self:get('config').pages_dir ?>/Copyright"><strike>&copy;</strike> no copyright</a><br />
             <span class="right">
                 Built <?=os.date('%B %d') ?> with <a href="http://luapress.org">Luapress</a>
             </span>
