@@ -13,7 +13,7 @@
 </head>
 <body>
     <section id="sidebar">
-        <h1><a href="<?=self:get('url') ?>"><?=self:get('title') ?></a></h1>
+        <h1><a href="/"><?=self:get('title') ?></a></h1>
 
         <nav>
             <?=self:get('page_links') ?>
