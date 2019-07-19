@@ -142,16 +142,16 @@ footer {
     }
 
 section#mast {
+    height: 206px;
     margin-left: 340px;
-    height: 422px;
     background-position: center 60%;
-    background-size: auto 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #F7F7F7;
 }
 section#mast.small {
-    height: 206px;
     position: absolute;
+    background-size: auto 100%;
     left: 0;
     right: 0;
 }
@@ -205,19 +205,26 @@ div.post ul,
 div.post h3,
 div.post pre {
     padding: 0 30px;
-    max-width: 690px;
+    max-width: 790px;
 }
 div.post pre {
     max-width: 720px;
 }
-div.post ul {
+div.post > ul {
     margin-left: 30px;
 }
 div.post h3 {
     font-family: 'Kelly Slab';
     font-weight: normal;
     font-size: 28px;
-    margin: 30px 0 0 0;
+    margin: 50px 0 0 0;
+}
+div.post h4 {
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    font-size: 24px;
+    margin: 30px 0 0 30px;
+    color: #666;
 }
 div.post div.images {
     margin: 0 30px;
@@ -225,6 +232,21 @@ div.post div.images {
 div.post div.images img {
     box-shadow: 0px 0px 1px #DDDDDD;
     margin-bottom: 10px;
+}
+
+div.post div.toc > ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+div.post div.toc > ul > li {
+    list-style: none;
+}
+div.post div.toc > ul > li > ul {
+    margin: 0;
+    padding: 0;
+}
+div.post div.toc > ul > li > ul > li {
+    list-style: none;
 }
 
 
