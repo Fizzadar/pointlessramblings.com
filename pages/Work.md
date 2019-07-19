@@ -3,6 +3,13 @@ $order=2
 A few of my favorite projects. Check out my [GitHub profile](https://github.com/Fizzadar) and [recent gists](https://gist.github.com/Fizzadar) for other odds and ends.
 
 <div class="work">
+    <h3>Kanmail</h3>
+    <p class="description"><em>A cross-platform desktop email client that functions like a kanban board.</em></p>
+    <p class="meta"><span>Language:</span> Python, JavaScript</p>
+    <p><a class="button" href="https://github.com/Fizzadar/Kanmail">GitHub</a></p>
+</div>
+
+<div class="work">
     <h3>pyinfra</h3>
     <p class="description"><em>Deploy stuff by diff-ing the state you want against the remote server.</em></p>
     <p class="meta"><span>Language:</span> Python</p>
@@ -11,9 +18,12 @@ A few of my favorite projects. Check out my [GitHub profile](https://github.com/
 
 <div class="work">
     <h3>Luapress</h3>
-    <p class="description"><em>A static blog generator. Used on this blog.</em></p>
+    <p class="description"><em>A static blog generator with plugin support. Used on this blog.</em></p>
     <p class="meta"><span>Language:</span> Lua</p>
-    <p><a class="button" href="https://github.com/Fizzadar/Luapress">GitHub</a></p>
+    <p>
+        <a class="button" href="http://luapress.org">Website</a>
+        <a class="button" href="https://github.com/Fizzadar/Luapress">GitHub</a>
+    </p>
 </div>
 
 <div class="work">
@@ -21,7 +31,8 @@ A few of my favorite projects. Check out my [GitHub profile](https://github.com/
     <p class="description"><em>Keeps an eye on your infrastructure and alerts you to changes.</em></p>
     <p class="meta"><span>Language:</span> Python, JavaScript</p>
     <p>
-        <a class="button" href="https://servicecanary.com">Website</a><a class="button" href="https://github.com/Oxygem/canaryd">GitHub</a>
+        <a class="button" href="https://servicecanary.com">Website</a>
+        <a class="button" href="https://github.com/Oxygem/canaryd">GitHub</a>
     </p>
 </div>
 
@@ -30,13 +41,6 @@ A few of my favorite projects. Check out my [GitHub profile](https://github.com/
     <p class="description"><em>Python/gevent based task framework/runner.</em></p>
     <p class="meta"><span>Language:</span> Python</p>
     <p><a class="button" href="https://github.com/Oxygem/pytask">GitHub</a></p>
-</div>
-
-<div class="work">
-    <h3>selected.js</h3>
-    <p class="description"><em>Simple, dependency free <code>&lt;select&gt;</code> replacement.</em></p>
-    <p class="meta"><span>Language:</span> JavaScript</p>
-    <p><a class="button" href="https://github.com/Fizzadar/selected.js">GitHub</a></p>
 </div>
 
 <div class="work">
