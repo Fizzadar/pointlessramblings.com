@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i|Kelly+Slab');
-
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -91,6 +89,7 @@ section#sidebar h1 a {
     padding: 30px;
     display: block;
     transition: 150ms;
+    text-decoration: none;
 }
 section#sidebar h1 a:hover {
     color: #333;
@@ -115,6 +114,7 @@ nav a {
     padding: 10px;
     color: #333;
     transition: 150ms;
+    text-decoration: none;
 }
 nav a:hover {
     padding-right: 60px;
@@ -196,7 +196,7 @@ div.post h2 a {
     padding: 30px;
     margin: -30px;
     transition: 150ms;
-    border: 0px solid #F7F7F7;
+    text-decoration: none;
 }
 div.post h2 a:hover {
     border-left-width: 30px;
