@@ -22,13 +22,15 @@ body {
 }
 
 a {
-    text-decoration: none;
-    border-bottom: 2px solid #F7F7F7;
+    text-decoration: underline;
+    text-decoration-color: #F7F7F7;
+    text-decoration-thickness: 2px;
     color: #6A44A1;
     transition: 150ms;
 }
 a:hover {
     border-color: #D7D7D7;
+    text-decoration-color: #D7D7D7;
     color: black;
 }
 
@@ -145,7 +147,7 @@ section#mast {
     height: 422px;
     margin-left: 340px;
     background-position: center 60%;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #F7F7F7;
 }
