@@ -10,7 +10,7 @@ local config = {
     template = 'pointless_v10',
 
     -- Posts per page
-    posts_per_page = 3,
+    posts_per_page = 5,
 
     -- Date formatting
     date_format = '%a %d %B %Y',
