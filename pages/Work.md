@@ -13,7 +13,11 @@ A few of my favorite projects. Check out my [GitHub profile](https://github.com/
     <h3>pyinfra</h3>
     <p class="description"><em>Deploy stuff by diff-ing the state you want against the remote server.</em></p>
     <p class="meta"><span>Language:</span> Python</p>
-    <p><a class="button" href="https://github.com/Fizzadar/pyinfra">GitHub</a></p>
+    <p>
+        <a class="button" href="https://pyinfra.com">Website</a>
+        <a class="button" href="https://pyinfra.readthedocs.io">Docs</a>
+        <a class="button" href="https://github.com/Fizzadar/pyinfra">GitHub</a>
+    </p>
 </div>
 
 <div class="work">
@@ -21,7 +25,7 @@ A few of my favorite projects. Check out my [GitHub profile](https://github.com/
     <p class="description"><em>A static blog generator with plugin support. Used on this blog.</em></p>
     <p class="meta"><span>Language:</span> Lua</p>
     <p>
-        <a class="button" href="http://luapress.org">Website</a>
+        <a class="button" href="https://luapress.org">Website</a>
         <a class="button" href="https://github.com/Fizzadar/Luapress">GitHub</a>
     </p>
 </div>
