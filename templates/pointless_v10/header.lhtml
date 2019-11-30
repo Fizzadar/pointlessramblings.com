@@ -36,7 +36,7 @@
         <section id="mast" style="background-image: url('<?=self:get('url') ?>/inc/masts/home/<?=os.date('%Y') ?>/<?=os.date('%B') ?>.jpg');">
         </section>
     <? else ?>
-        <section id="mast" class="small"<? if self:get('single') and self:get('post').mast then ?> style="background-image: url('<?=self:get('url') ?>/inc/masts/<?=self:get('post').mast ?>.jpg');"<? end ?>>
+        <section id="mast" class="small"<? if self:get('single') and self:get('post').mast then ?> style="background-image: url('<?=self:get('url') ?>/inc/masts/<?=self:get('post').mast ?>.jpg');<? if self:get('post').mast_background then ?> background-color: <?=self:get('post').mast_background ?><? end ?>"<? end ?>>
         </section>
     <? end ?>
 
