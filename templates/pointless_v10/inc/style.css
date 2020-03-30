@@ -4,11 +4,11 @@
     -moz-box-sizing: border-box;
 }
 *::selection {
-    background: #6A44A1;
+    background: #F2318D;
     color: white;
 }
 *::-moz-selection {
-    background: #6A44A1;
+    background: #F2318D;
     color: white;
 }
 
@@ -27,7 +27,7 @@ a {
     text-decoration: underline;
     text-decoration-color: #F7F7F7;
     text-decoration-thickness: 2px;
-    color: #6A44A1;
+    color: #F2318D;
     transition: 150ms;
 }
 a:hover {
@@ -98,7 +98,7 @@ section#sidebar h1 {
     font-family: 'Kelly Slab';
     font-weight: normal;
     font-size: 60px;
-    background: #6A44A1;
+    background: #F2318D;
     margin: -30px -30px 0 -30px;
 }
 section#sidebar h1 a {
@@ -138,7 +138,7 @@ nav a {
 }
 nav a:hover {
     padding-right: 60px;
-    color: #6A44A1;
+    color: #F2318D;
 }
 
 footer {
@@ -303,6 +303,6 @@ div.work {
         color: #333;
     }
     div.work a.button:hover {
-        background: #6A44A1;
+        background: #F2318D;
         color: white;
     }
