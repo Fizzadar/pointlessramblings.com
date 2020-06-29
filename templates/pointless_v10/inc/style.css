@@ -138,7 +138,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    padding-right: 60px;
+    padding-left: 40px;
     color: #F2318D;
 }
 
