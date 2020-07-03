@@ -29,7 +29,7 @@ a {
     text-decoration-color: #F7F7F7;
     text-decoration-thickness: 2px;
     color: #F2318D;
-    transition: 150ms;
+    transition: 100ms;
 }
 a:hover {
     text-decoration-color: #D7D7D7;
@@ -106,12 +106,12 @@ section#sidebar h1 a {
     color: white;
     padding: 30px;
     display: block;
-    transition: 150ms;
+    transition: 100ms;
     text-decoration: none;
 }
 section#sidebar h1 a:hover {
     color: #333;
-    background: #F7F7F7;
+    background: #D7D7D7;
 }
 section#sidebar h1 a:focus, section#sidebar h1 a:active {
     background: #D7D7D7;
@@ -129,16 +129,20 @@ nav li {
 nav a {
     font-size: 30px;
     font-family: 'Kelly Slab';
-    float: left;
-    clear: both;
+    /*float: left;*/
+    /*clear: both;*/
+    display: inline-block;
     background: white;
     padding: 10px;
     color: #333;
-    transition: 150ms;
+    transition: 100ms;
     text-decoration: none;
 }
 nav a:hover {
     padding-left: 40px;
+    color: #F2318D;
+}
+nav li.active a {
     color: #F2318D;
 }
 
@@ -216,7 +220,7 @@ div.post h2 a {
     display: block;
     padding: 30px;
     margin: -30px;
-    transition: 150ms;
+    transition: 100ms;
     text-decoration: none;
     border: 0px solid #F7F7F7;
 }

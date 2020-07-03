@@ -34,7 +34,18 @@
 
     nav {
         margin: 0 0 0 -10px;
-        height: 57px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav.home {
+        float: left;
+    }
+    nav.home li {
+        float: left;
+    }
+    nav li {
+        width: auto;
+        display: flex;
     }
     nav a {
         clear: none;

@@ -19,7 +19,7 @@
     <section id="sidebar">
         <h1><a href="/"><?=self:get('title') ?></a></h1>
 
-        <nav>
+        <nav<? if self:get('home') then ?> class="home"<? end ?>>
             <?=self:get('page_links') ?>
         </nav>
 
