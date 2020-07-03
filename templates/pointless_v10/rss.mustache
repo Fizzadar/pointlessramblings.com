@@ -6,14 +6,14 @@
 {{#posts}}
       <item>
         <title>{{title}}</title>
-          <description>
+          <description><![CDATA[
           {{#excerpt}}
             {{{excerpt}}}
           {{/excerpt}}
           {{^excerpt}}
             {{{content}}}
           {{/excerpt}}
-          </description>
+          ]]></description>
           <link>{{{url}}}/{{{config.posts_dir}}}/{{{link}}}</link>
           <guid>{{{url}}}/{{{config.posts_dir}}}/{{{link}}}</guid>
       </item>
