@@ -1,0 +1,15 @@
+baseURL = 'https://pointlessramblings.com/'
+languageCode = 'en-us'
+
+title = 'Pointless Ramblings'
+theme = 'pointless_v10'
+
+[params]
+description = 'The pointless ramblings of Nick Barrett, a (mostly web) hacker.'
+keywords = 'pointless ramblings, fizzadar, nick barrett'
+
+[permalinks]
+posts = '/:sections/:title'
+
+[markup.goldmark.renderer]
+unsafe = true  # allow HTML in content
