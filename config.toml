@@ -4,6 +4,8 @@ languageCode = 'en-us'
 title = 'Pointless Ramblings'
 theme = 'pointless_v10'
 
+disableKinds = ["section"]
+
 [params]
 description = 'The pointless ramblings of Nick Barrett, a (mostly web) hacker.'
 keywords = 'pointless ramblings, fizzadar, nick barrett'
