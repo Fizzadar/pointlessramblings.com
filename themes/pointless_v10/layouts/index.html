@@ -1,0 +1,13 @@
+{{ define "mast" }}
+    <section id="mast" style="background-image: url('{{ .Site.BaseURL }}/masts/home/{{ now.Format "2006" }}/{{ now.Format "January" }}.jpg');">
+    </section>
+{{ end }}
+
+{{ define "main" }}
+    {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+        {{ .Render "post-link" }}
+    {{ end }}
+    <div class="post"><h2>
+        <a class="right" href="{{ ref . "pages/archive.md" }}">All the ramblings &rarr;</a>
+    </h2></div>
+{{ end }}

@@ -1,0 +1,19 @@
+<section id="sidebar">
+    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
+	<nav>
+		{{ with .Site.Menus.main }}
+			{{ range . }}
+				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+		{{ end }}
+	</nav>
+
+    <footer>
+        <img src="{{ "img/keepcalm.png" | relURL }}" />
+        Est. 2006 &middot; <a href="{{ "pages/copyright" | relURL }}"><strike>&copy;</strike> no copyright</a><br />
+        <span class="right">
+            Built {{ .Hugo.BuildDate }}
+        </span>
+    </footer>
+</section>
