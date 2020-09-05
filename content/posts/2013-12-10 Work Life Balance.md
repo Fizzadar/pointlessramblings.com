@@ -1,0 +1,12 @@
+---
+title: Work Life Balance
+date: 2013-12-10
+---
+
+The work-life balance has been discussed a thousand times over; there are hundreds of articles telling you that a good balance is essential for a healthy, fulfilled life and that we should all be careful of becoming overworked and stressed. In many ways I couldn't agree more, of course these things are essential and a good balance will improve both work and life sides of the equation. My problem is how I define work.
+
+As a developer/engineer/programmer/hacker/what-have-you I find it hard to define what is considered work. Obviously my regular job counts, but what about side projects? Building things/websites for friends? Tinkering with hardware? Even reading Hacker News - am I working or am I 'life-ing' - does it depend on the article's subject?
+
+Like any good dev I enjoy what I do, I love the challenge of solving problems in programmatic, logical ways and I love the ability to create something out of essentially nothing with relative ease. So if I choose to spend an evening coding rather than doing 'ordinary' home things does that mean I'm constantly throwing off my work-life balance? I don't think so.
+
+For me the work-life balance is a non-issue, the only thing I should worry about is happiness. The key to life is to enjoy it, not balance it.
