@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <div class="post">
+        <h2 class="single page">
+            {{ .Title }}
+        </h2>
+        {{ .Content }}
+
+        <div style="font-size: 0;">
+            {{ range $year := (sort (readDir "static/masts/home") "Name" "desc") }}
+                {{ range $month := (slice "December" "November" "October" "September" "August" "July" "June" "May" "April" "March" "February" "January") }}
+                    {{ $filename := printf "masts/home/%s/%s.jpg" $year.Name $month }}
+                    {{ if fileExists (printf "static/%s" $filename) }}
+                        <img src="{{ $filename | relURL }}" />
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+{{ end }}

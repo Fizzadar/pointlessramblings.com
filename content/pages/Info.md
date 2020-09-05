@@ -1,5 +1,6 @@
 ---
 title: Info
+layout: info
 menu:
     main:
         weight: 1
@@ -16,5 +17,3 @@ Generated HTML by [Luapress](http://luapress.org). Served by a VM hosted by my o
 ### Index Masts
 
 From time to time (used to be monthly!) I update the mast image on the homepage. A mixture of photographs and weird Photoshop/GIMP edits. Blow is an archive of them all:
-
-$! masts !$
