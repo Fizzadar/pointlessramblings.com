@@ -1,5 +1,5 @@
 ---
-title: Welcome to Pointless Ramblings #2
+title: 'Welcome to Pointless Ramblings v2'
 date: 2013-02-22
 ---
 

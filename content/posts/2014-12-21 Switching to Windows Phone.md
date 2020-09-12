@@ -11,6 +11,6 @@ But the opposite has happened; [I must be in a small minority](http://www.thever
 
 As with all things, Windows Phone is not perfect - Internet Explorer (true to it's desktop counterpart) cannot render fonts smoothly. Ironically, despite my general dislike of extra apps, I miss Citymapper _a lot_. There's also some issues with live tiles not updating, but I came from iOS 8 & it's beta so I'm now well used to a buggy phone ;).
 
-The phone itself looks amazing, is built like a brick (as much as a smartphone can be anyway) and there's [that 41 MP camera](http://connect.dpreview.com/post/5234892048/nokia-lumia-1020-camera-review). It's also over a year old and a little slow at times - but the camera more than makes up for it as opposed to say, a much faster Lumia 930. More details available in [the notes I made during the trial period]($=url/pages/iPhone\_to\_Lumia/).
+The phone itself looks amazing, is built like a brick (as much as a smartphone can be anyway) and there's [that 41 MP camera](http://connect.dpreview.com/post/5234892048/nokia-lumia-1020-camera-review). It's also over a year old and a little slow at times - but the camera more than makes up for it as opposed to say, a much faster Lumia 930. More details available in [the notes I made during the trial period](/pages/iphone-to-lumia/).
 
 All in all, I can't see myself ever returning to iOS.
