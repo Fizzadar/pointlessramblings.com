@@ -12,7 +12,7 @@ Unfortunately Electron comes a whole load of bloat. They tend to use high amount
 
 Slack is a perfect example of this. Apparently this was [fixed in March](https://slack.engineering/reducing-slacks-memory-footprint-4480fec7e8eb), yet the [HN comments](https://news.ycombinator.com/item?id=13785793) and [this recent account](https://medium.com/@matt.at.ably/wheres-all-my-cpu-and-memory-gone-the-answer-slack-9e5c39207cab) disagree. I fired up Slack to check this out for myself and, guess what? Slack is still a CPU (and somewhat memory) whore - it’s just less so:
 
-![]($=url/inc/posts/why_always_electron/slack_resources.gif)
+![](/img/posts/why_always_electron/slack_resources.gif)
 
 So with a single team Slack needs ~480MB memory. Not great (esp. for a  glorified chat app), but not awful. But try hovering over  messages within the app and you’ll see massive CPU spikes (all that changes is the background color!). On my 8GB Macbook with it’s paltry m5 this is unacceptable.
 
@@ -22,7 +22,7 @@ There is a lighter alternative! [pywebview](https://github.com/r0x0r/pywebview) 
 
 Loading the same Slack team gives ~335MB memory usage and a much better CPU load from it’s single process:
 
-![]($=url/inc/posts/why_always_electron/slacklite_resources.gif)
+![](/img/posts/why_always_electron/slacklite_resources.gif)
 
 Although I would recommend against it, the code to run SlackLite (this is a joke), is available [in this gist](https://gist.github.com/Fizzadar/3e44babe768edbc2974fa5a7ba49f90a). I do actually use this when on my Macbook!
 

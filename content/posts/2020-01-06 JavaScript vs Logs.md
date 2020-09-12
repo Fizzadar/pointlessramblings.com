@@ -9,7 +9,7 @@ Gone are the days when adding the GA/et-al snippet to your blog captured almost 
 
 But how big is the problem? What am I not seeing in GA? Am I talking a load of nonsense? To find out I used [GoAccess](https://goaccess.io/) to parse & track the stats for this blog from the nginx logs. The results have been quite revealing. Let's look at February to July of 2018:
 
-![]($=url/inc/posts/javascript_vs_logs/ga_vs_goaccess.png)
+![](/img/posts/javascript_vs_logs/ga_vs_goaccess.png)
 
 That's a huge difference! Much more than I ever expected. Note that this after some cleanup. GoAccess uses servers logs so all traffic counts - including crawlers, static files and bad actors. The logs were filtered and processed as so:
 

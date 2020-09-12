@@ -37,7 +37,7 @@ pyinfra myserver.net apt.packages iftop sudo=true
 
 This is roughly what you'll see:
 
-![]($=url/inc/posts/why_you_should_try_pyinfra/example_deploy.gif)
+![](/img/posts/why_you_should_try_pyinfra/example_deploy.gif)
 
 ---
 
@@ -63,7 +63,7 @@ pyinfra can also build Docker images, execute with subprocess and read Ansible i
 
 In an agentless system, where a single process handles the entire deployment, performance is key. One of the reasons I started pyinfra was frustrations with Ansible's (at the time) slowness. pyinfra boasts significant performance gains over Ansible and falls much closer to fabric:
 
-![]($=url/inc/posts/why_you_should_try_pyinfra/performance_chart.png)
+![](/img/posts/why_you_should_try_pyinfra/performance_chart.png)
 
 ### 5. Package, extend, distribute
 

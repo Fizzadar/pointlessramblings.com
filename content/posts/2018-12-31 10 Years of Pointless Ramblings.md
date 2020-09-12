@@ -13,15 +13,15 @@ I bought the domain pointlessramblings.com over 10 years ago(!) when I was first
 First starting out in Wordpress - lots of design experiments/changes in rapid succession.
 
 <div class="images">
-    <img src="$=url/inc/posts/10_years_pointless/2006_08.png" />
-    <img src="$=url/inc/posts/10_years_pointless/2007_07.png" />
-    <img src="$=url/inc/posts/10_years_pointless/2007_10.png" />
+    <img src="/img/posts/10_years_pointless/2006_08.png" />
+    <img src="/img/posts/10_years_pointless/2007_07.png" />
+    <img src="/img/posts/10_years_pointless/2007_10.png" />
 </div>
 
 Finally in 2008 settling on "sketch" which at the time was featured on a number of "CSS galeries" (do these even exist anymore?!):
 
 <div class="images">
-    <img src="$=url/inc/posts/10_years_pointless/2008_04.png" />
+    <img src="/img/posts/10_years_pointless/2008_04.png" />
 </div>
 
 ### 2011 - 2012
@@ -29,9 +29,9 @@ Finally in 2008 settling on "sketch" which at the time was featured on a number 
 University years - less blogging more playing around with sharing content found online.
 
 <div class="images">
-    <img src="$=url/inc/posts/10_years_pointless/2011_02.png" />
-    <img src="$=url/inc/posts/10_years_pointless/2011_09.png" />
-    <img src="$=url/inc/posts/10_years_pointless/2012_09.png" />
+    <img src="/img/posts/10_years_pointless/2011_02.png" />
+    <img src="/img/posts/10_years_pointless/2011_09.png" />
+    <img src="/img/posts/10_years_pointless/2012_09.png" />
 </div>
 
 ### 2013 - today
@@ -39,9 +39,9 @@ University years - less blogging more playing around with sharing content found 
 The Luapress years - since starting a real job. Complete rebuild from the ground up using my very own [Luapress](http://luapress.org).
 
 <div class="images">
-    <img src="$=url/inc/posts/10_years_pointless/2013_03.png" />
-    <img src="$=url/inc/posts/10_years_pointless/2013_09.png" />
-    <img src="$=url/inc/posts/10_years_pointless/2016_06.png" />
+    <img src="/img/posts/10_years_pointless/2013_03.png" />
+    <img src="/img/posts/10_years_pointless/2013_09.png" />
+    <img src="/img/posts/10_years_pointless/2016_06.png" />
 </div>
 
 Which brings us to this design/layout which has been live since sometime in 2017.
