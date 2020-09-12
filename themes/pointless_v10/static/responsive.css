@@ -5,17 +5,21 @@
         width: 540px;
     }
 
-    section#sidebar h1 {
+    section#sidebar h4 {
         margin-left: -130px;
         margin-right: -130px;
     }
-    section#sidebar h1 a {
+    section#sidebar h4 a {
         padding-left: 130px;
         padding-right: 130px;
     }
 
     section#mast, section#content {
         margin-left: 540px;
+    }
+
+    section#mast.small {
+        background-size: 100% auto;
     }
 }
 
@@ -25,10 +29,10 @@
         width: 100%;
         padding-bottom: 0;
     }
-    section#sidebar h1 {
+    section#sidebar h4 {
         font-size: 40px;
     }
-    section#sidebar h1 a {
+    section#sidebar h4 a {
         padding: 10px 30px;
     }
 

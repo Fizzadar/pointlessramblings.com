@@ -95,25 +95,25 @@ section#sidebar {
     bottom: 0;
     padding: 30px;
 }
-section#sidebar h1 {
+section#sidebar h4 {
     font-family: 'Kelly Slab';
     font-weight: normal;
     font-size: 60px;
     background: #F2318D;
     margin: -30px -30px 0 -30px;
 }
-section#sidebar h1 a {
+section#sidebar h4 a {
     color: white;
     padding: 30px;
     display: block;
     transition: 100ms;
     text-decoration: none;
 }
-section#sidebar h1 a:hover {
+section#sidebar h4 a:hover {
     color: #333;
     background: #D7D7D7;
 }
-section#sidebar h1 a:focus, section#sidebar h1 a:active {
+section#sidebar h4 a:focus, section#sidebar h4 a:active {
     background: #D7D7D7;
 }
 section#sidebar a {
@@ -194,7 +194,7 @@ section#content img {
 }
 
 div.post {}
-div.post h2 {
+div.post h1, div.post h2 {
     font-size: 38px;
     font-family: 'Kelly Slab';
     font-weight: normal;
@@ -203,20 +203,20 @@ div.post h2 {
     background: white;
     display: inline-block;
 }
-div.post h2.single {
-    margin: 40px 0 34px 0;
+div.post h1.single {
+    margin: 35px 0 35px 0;
 }
-div.post h2.single.page {
-    margin: 50px 0 49px 0;
+div.post h1.single.page {
+    margin: 50px 0 50px 0;
 }
-div.post h2 span.meta {
+div.post h1 span.meta, div.post h2 span.meta {
     font-family: Asap;
     color: #666;
     font-size: 16px;
     display: block;
     margin-top: 10px;
 }
-div.post h2 a {
+div.post h1 a, div.post h2 a {
     display: block;
     padding: 30px;
     margin: -30px;
@@ -224,7 +224,7 @@ div.post h2 a {
     text-decoration: none;
     border: 0px solid #F7F7F7;
 }
-div.post h2 a:hover {
+div.post h1 a:hover, div.post h2 a:hover {
     border-left-width: 30px;
 }
 
@@ -237,7 +237,7 @@ div.post pre {
     max-width: 790px;
 }
 div.post pre {
-    max-width: 720px;
+    max-width: 760px;
 }
 div.post > ul {
     margin-left: 30px;
