@@ -1,4 +1,4 @@
-@media all and (min-width: 1920px) {
+@media all and (min-width: 1500px) {
     section#sidebar {
         padding-left: 130px;
         padding-right: 130px;
@@ -16,6 +16,31 @@
 
     section#mast, section#content {
         margin-left: 540px;
+    }
+
+    section#mast.small {
+        background-size: 100% auto;
+    }
+}
+
+@media all and (min-width: 1800px) {
+    section#sidebar {
+        padding-left: 430px;
+        padding-right: 130px;
+        width: 840px;
+    }
+
+    section#sidebar h4 {
+        margin-left: -430px;
+        margin-right: -130px;
+    }
+    section#sidebar h4 a {
+        padding-left: 430px;
+        padding-right: 130px;
+    }
+
+    section#mast, section#content {
+        margin-left: 840px;
     }
 
     section#mast.small {
