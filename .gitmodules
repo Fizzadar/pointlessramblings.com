@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:Fizzadar/pointlessramblings.com-generated.git
+	branch = main
