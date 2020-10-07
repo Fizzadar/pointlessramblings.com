@@ -1,6 +1,8 @@
 ---
 title: Lua vs Node vs LuaNginx
 date: 2013-03-01
+aliases:
+    - /posts/Lua_vs_Node_vs_LuaNginx/
 ---
 
 As part of my final year dissertation I've been learning about building web servers & apps using Lua, LuaJIT, LuaJIT+Nginx & Node. Because it's relatively simple to implement a basic HTTP server in each, I decided to run some benchmarks to compare them.

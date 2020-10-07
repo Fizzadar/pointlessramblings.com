@@ -2,6 +2,8 @@
 title: What Mailchimp Considers an Email Address
 date: 2017-07-23
 mast: failchimp
+aliases:
+    - /posts/What_Mailchimp_Considers_an_Email/
 ---
 
 Recently I've been working with Mailchimp's API. The task was simple: to write a script to keep in sync an internal user list with a Mailchimp mailing list - simple stuff. I set about writing the thing and, bar for the fairly regular API timeouts (don't batch >500), all was good.

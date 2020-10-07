@@ -1,6 +1,8 @@
 ---
 title: Work Life Balance
 date: 2013-12-10
+aliases:
+    - /posts/Work_Life_Balance/
 ---
 
 The work-life balance has been discussed a thousand times over; there are hundreds of articles telling you that a good balance is essential for a healthy, fulfilled life and that we should all be careful of becoming overworked and stressed. In many ways I couldn't agree more, of course these things are essential and a good balance will improve both work and life sides of the equation. My problem is how I define work.

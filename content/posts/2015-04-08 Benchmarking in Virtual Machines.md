@@ -1,6 +1,8 @@
 ---
 title: Benchmarking in Virual Machines
 date: 2015-04-08
+aliases:
+    - /posts/Benchmarking_in_Virtual_Machines/
 ---
 
 Since the earliest programming days hackers have benchmarked and compared pretty much every language/software/stack out there. These benchmarks are often shared with the public, which allows other hackers to make more informed tooling decisions based on their specific problem. Although this is an awesome feedback system, I worry that recently the quality of benchmarks has been affected...

@@ -1,6 +1,8 @@
 ---
 title: 'Welcome to Pointless Ramblings v2'
 date: 2013-02-22
+aliases:
+    - /posts/Welcome_to_Pointless_Ramblings_2/
 ---
 
 For the last six years this domain has been serving up my blog using Wordpress as the backend. Ignoring a couple of re-installs, today is the first day it's no longer Wordpress. I was 16 when I started this blog, just starting to learn PHP. During these years the site has undergone six different designs I can find on archive.org. The site has always (and probably will always be) been more of a testing ground than a blog.

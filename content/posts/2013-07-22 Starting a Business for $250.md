@@ -1,6 +1,8 @@
 ---
 title: Starting a Business for $250
 date: 2013-07-22
+aliases:
+    - /posts/Starting_a_Business_for_$250/
 ---
 
 In March 2010, age 18, I rented a low-grade server from [Hetzner](http://hetzner.de/en) for just $214/month which I borrowed from my parents (I was living in a Canadian snow/party town on a housekeepers wage). The idea was to sell these OpenVZ VM's I had been renting elsewhere to host a few projects. At the time I named my business Fanatical VPS (now [Afterburst](http://afterburst.com)). I also had very little knowledge about managing Linux servers. Still, I followed some online tutorials,  bought monthly [WHMCS](http://whmcs.com) and [SolusVM](http://solusvm.com) licenses ($18, $10 respectively), a domain ($10) and setup a quick website offering my services. Total startup cost: $252.

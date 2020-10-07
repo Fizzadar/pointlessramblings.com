@@ -2,6 +2,8 @@
 title: El Capitan for Developers
 date: 2015-06-10
 mast: el_capitan
+aliases:
+    - /posts/El_Capitan/
 ---
 
 In spite of the risks, I always install the latest OSX betas on my personal laptop/dev-machine. This always brings a whole host of compatability issues and broken things, but fixing/discovering these is all part of the fun! This post is a summary of issues/solutions found so far - hopefully it'll be of help to someone. I shall keep updating as I discover more.

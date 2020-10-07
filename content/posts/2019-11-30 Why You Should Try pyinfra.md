@@ -3,6 +3,8 @@ title: Why You Should Try pyinfra
 date: 2019-11-30
 mast: pyinfra
 mast_background: '#1D1D1D'
+aliases:
+    - /posts/Why_You_Should_Try_pyinfra/
 ---
 
 These days tools to automate, provision or configure servers are dime  a dozen. There’s Puppet, Chef, Salt, Ansible and so on. They all suffer from “over abstraction” - each has it’s own  syntaxes and debugging processes. This is far removed from a manual  provision over SSH, where feedback is instant. These tools work a dream,  until they don’t.

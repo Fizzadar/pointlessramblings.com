@@ -3,6 +3,8 @@ title: Agentless Everywhere
 date: 2016-08-13
 mast: agentless_everywhere
 mast_position: right center
+aliases:
+    - /posts/Agentless_Everywhere/
 ---
 
 In a world where everything must be distributed across multiple servers, datacenters and continents the task of managing & monitoring server state has become significantly more complex.

@@ -1,6 +1,8 @@
 ---
 title: Learning by Working
 date: 2013-10-26
+aliases:
+    - /posts/Learning_by_Working/
 ---
 
 I recently started working for [EDITD](http://editd.com) which I am really enjoying. At the same time, I'm learning a _lot_. It's been a crash course in a range of subjects; Python, Ruby, Chef, Git, AWS, Mongo etc. My thirst for knowledge is definitely being filled, I'm going to learn a huge amount very quicky.

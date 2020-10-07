@@ -2,6 +2,8 @@
 title: Why Always Docker?
 date: 2016-01-17
 mast: docker_all_the_things
+aliases:
+    - /posts/Why_Always_Docker/
 ---
 
 I love Docker. I've recently spent a lot of time learning about both Docker & Kubernetes. Combined with stateless containers they provide fantastic scalability, service discovery and near-instant deploy times (excluding initial image build!).

@@ -1,6 +1,8 @@
 ---
 title: JavaScript vs Logs
 date: 2020-01-06
+aliases:
+    - /posts/JavaScript_vs_Logs/
 ---
 
 A war has been raging over the last few years between consumers and advertisers. A never ending cat and mouse game where each side tries to out-do the other. It's tracking vs blocking, clicks vs privacy, readers vs publishers.

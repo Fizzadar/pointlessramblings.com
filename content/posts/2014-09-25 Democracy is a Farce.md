@@ -1,6 +1,8 @@
 ---
 title: Democracy is a Farce
-date: 2015-09-25
+date: 2014-09-25
+aliases:
+    - /posts/Democracy_is_a_Farce/
 ---
 
 Democracy, in the forms it's employed across the globe, is bullshit. The concepts and ideas are great, but when it boils down to the nitty gritty - actually running a country in it and it's people's best interest - the system fails. The reason for this is because politicians don't do what's best for the country and voters, they do what they believe will gain them a point or two in public favour. Or they work on creating law tailored to the 1%, pushed by lobbying groups, donations and (very likely) all kinds of backhand deals. Sadly, these actions are normally in direct correlation to the countries overall interests.

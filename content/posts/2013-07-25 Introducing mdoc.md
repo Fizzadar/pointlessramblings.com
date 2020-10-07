@@ -2,6 +2,8 @@
 title: Introducing mdoc
 date: 2013-07-25
 mast: mdoc
+aliases:
+    - /posts/Introducing_mdoc/
 ---
 
 [**View on GitHub**](http://github.com/Oxygem/mdoc) / [**View Demo**](http://doc.oxypanel.com)

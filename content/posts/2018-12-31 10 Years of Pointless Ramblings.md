@@ -2,6 +2,8 @@
 title: Over 10 years of Pointless Ramblings
 date: 2018-12-31
 mast: 10_years_pointless
+aliases:
+    - /posts/10_Years_of_Pointless_Ramblings/
 ---
 
 It's the end of 2018 and I've yet to write a single blog post. This was originally titled _10 years of Pointless Ramblings_ which became 11 and now I might as well call it 12.

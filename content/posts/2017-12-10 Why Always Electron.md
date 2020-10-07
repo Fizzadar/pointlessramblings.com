@@ -2,6 +2,8 @@
 title: Why Always Electron?
 date: 2017-12-10
 mast: why_always_electron
+aliases:
+    - /posts/Why_Always_Electron/
 ---
 
 [Electron](https://electronjs.org/) is fast becoming the go-to solution for non-desktop developers who want to build desktop apps. Say what you want about that ([I'm doing it!](https://github.com/Fizzadar/kanmail)) but, for better or worse, the trend of using web technologies for desktop is here to stay.

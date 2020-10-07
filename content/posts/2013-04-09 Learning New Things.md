@@ -1,6 +1,8 @@
 ---
 title: Learning New Things
 date: 2013-04-09
+aliases:
+    - /posts/Learning_New_Things/
 ---
 
 The first two years of University turned out to be relatively simple (to be honest I was in the lucky position of having covered most of the material prior to arriving). But this third and final year, now just under than two months from completion, has stepped up to another level.

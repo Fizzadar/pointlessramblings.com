@@ -1,6 +1,8 @@
 ---
 title: My PRISM Fallout
 date: 2013-06-15
+aliases:
+    - /posts/My_PRISM_Fallout/
 ---
 
 So we've all read about the PRISM scandal and we know that the NSA have some kind of access to our data from a number of large internet based companies. Although I have 'nothing to hide' I still believe I have a right to privacy. It scares me that a huge, overreaching and seemingly above-the-law agency from another country can start digging around in *my* personal data. My mistake for using American companies.

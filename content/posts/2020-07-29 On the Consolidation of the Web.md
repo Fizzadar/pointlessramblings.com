@@ -1,6 +1,8 @@
 ---
 title: On the Consolidation of the Web
 date: 2020-07-29
+aliases:
+    - /posts/On_the_Consolidation_of_the_Web/
 ---
 
 In recent years, the web has been consolidating. From the servers to the apps, a growing majority of the web is controlled by a small pool of companies. When AWS was founded in 2006 I was just starting out with my first VPS, running this blog on WordPress (the good ol' days!). For the last 10 years I have part-run a small VPS ("cloud server") host called [Afterburst](https://afterburst.com). Throughout these years I have watched this consolidation, and these are my observations.

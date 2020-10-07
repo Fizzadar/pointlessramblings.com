@@ -1,6 +1,8 @@
 ---
 title: pngquant vs pngcrush vs optipng vs pngnq
 date: 2014-01-14
+aliases:
+    - /posts/pngquant_vs_pngcrush_vs_optipng_vs_pngnq/
 ---
 
 A couple of days ago I saw [pngquant](http://pngquant.org/) appear on Hacker News. I'd never really looked in depth into image compression, and after reading up on the subject I scanned through the comments on HN, discovering a number of alternative png (and other formats) optimisers. So I decided to benchmark/compare [pngquant](http://pngquant.org/), [pngcrush](http://pmt.sourceforge.net/pngcrush/), [optipng](http://optipng.sourceforge.net/) and [pngnq](http://pngnq.sourceforge.net/).

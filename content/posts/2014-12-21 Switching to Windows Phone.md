@@ -1,6 +1,8 @@
 ---
 title: Switching to Windows Phone
 date: 2014-12-21
+aliases:
+    - /posts/Switching_to_Windows_Phone/
 ---
 
 A couple of months ago, while trundling along the Circle line at snails pace, it dawned on me that I rarely use more than around 5 apps on my iPhone. At the time, I was checking my emails in Mail and had just finished reading the latest blog posts on Flipboard. A couple of phone calls, a text and quick snap with Autostitch brings us to 5. Given the massive bias towards wall-of-apps style phone usage, I decided to try something a little different.

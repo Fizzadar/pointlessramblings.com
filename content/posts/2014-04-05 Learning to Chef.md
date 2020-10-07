@@ -1,9 +1,11 @@
 ---
 title: Learing to Chef
-date: 2015-04-05
+date: 2014-04-05
 mast: chef
 mast_background: black
 mast_position: right center
+aliases:
+    - /posts/Learning_to_Chef/
 ---
 
 Over the last three months I've been learning how to cook with Chef. Prior to this I have stuck faithful to bash scripts for provisioning servers, and Chef/Puppet/Ansible/etc all claim to make this job a whole lot easier. Having now used Chef extensively, I can for sure say it does _not_ make the job of deploying easier.
