@@ -1,4 +1,4 @@
-.luapress*
+.DS_Store
 templates/default
 posts/draft
 build/
