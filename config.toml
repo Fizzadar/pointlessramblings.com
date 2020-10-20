@@ -8,6 +8,8 @@ disableKinds = ["section"]
 
 PygmentsCodeFences = false
 
+enableGitInfo = true
+
 [params]
 description = 'The pointless ramblings of Nick Barrett, a (mostly web) hacker.'
 keywords = 'pointless ramblings, fizzadar, nick barrett'
