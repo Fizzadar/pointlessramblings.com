@@ -23,7 +23,7 @@
     }
 }
 
-@media all and (min-width: 1800px) {
+@media all and (min-width: 2000px) {
     section#sidebar {
         padding-left: 430px;
         padding-right: 130px;
