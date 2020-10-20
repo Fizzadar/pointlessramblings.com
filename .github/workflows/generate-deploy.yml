@@ -24,19 +24,21 @@ jobs:
       - name: Generate
         run: hugo
 
-      - name: Push to Pages Repository
+      - name: Push & Update `public` Submodule
         run: |
           cd public/
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "Site build $(date -I)"
-          git push origin HEAD:main
 
-      - name: Update Submodule
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add public/
-          git commit -m "Update to latest build"
-          git push
+          if [[ `git status --porcelain` ]]; then
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "Site build $(date -I)"
+            git push origin HEAD:main
+
+            cd ..
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add public/
+            git commit -m "Update to latest build"
+            git push
+          fi
