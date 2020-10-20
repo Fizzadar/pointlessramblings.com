@@ -1,0 +1,41 @@
+name: Generate & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Clone repositories
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # generated site lives in submodule public/
+          fetch-depth: 0    # git history for .GitInfo and .Lastmod
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.76.5'
+
+      - name: Generate
+        run: hugo
+
+      - name: Push to Pages Repository
+        run: |
+          cd public/
+          git add .
+          git commit -m "Site build $(date -I)"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git push
+
+      - name: Update Submodule
+        run: |
+          git add public/
+          git commit -m "Update to latest build"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git push
