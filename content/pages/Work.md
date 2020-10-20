@@ -68,7 +68,7 @@ A few of my favorite projects I have created or been involved in. Check out my [
 
 <div class="work">
     <h3>Luapress</h3>
-    <p class="description"><em>A static blog generator with plugin support. <strike>Used on this blog</strike>.</em></p>
+    <p class="description"><em>A static blog generator with plugin support. <a href="/posts/migrating-this-blog-to-hugo/"><strike>Used on this blog</strike></a>.</em></p>
     <p class="meta"><span>Language:</span> Lua<br /><span>Status:</span> Inactive</p>
     <p>
         <a class="button" href="https://luapress.org">Website</a>
