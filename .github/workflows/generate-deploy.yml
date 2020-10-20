@@ -26,16 +26,16 @@ jobs:
       - name: Push to Pages Repository
         run: |
           cd public/
-          git add .
-          git commit -m "Site build $(date -I)"
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git add .
+          git commit -m "Site build $(date -I)"
           git push
 
       - name: Update Submodule
         run: |
-          git add public/
-          git commit -m "Update to latest build"
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git add public/
+          git commit -m "Update to latest build"
           git push
