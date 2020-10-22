@@ -3,3 +3,4 @@ templates/default
 posts/draft
 build/
 production/
+public/
