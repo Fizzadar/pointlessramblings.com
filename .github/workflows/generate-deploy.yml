@@ -9,12 +9,17 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - name: Clone repositories
+      - name: Clone Source Repository
         uses: actions/checkout@v2
         with:
-          submodules: true  # generated site lives in submodule public/
           fetch-depth: 0    # git history for .GitInfo and .Lastmod
+
+      - name: Clone Generated Repository
+        uses: actions/checkout@v2
+        with:
           token: ${{ secrets.ACCESS_TOKEN }}
+          repository: fizzadar/pointlessramblings.com-generated
+          path: public
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
@@ -24,7 +29,7 @@ jobs:
       - name: Generate
         run: hugo
 
-      - name: Push & Update `public` Submodule
+      - name: Push & Update
         run: |
           cd public/
 
@@ -34,11 +39,4 @@ jobs:
             git add .
             git commit -m "Site build $(date -I)"
             git push origin HEAD:main
-
-            cd ..
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add public/
-            git commit -m "Update to latest build"
-            git push
           fi
