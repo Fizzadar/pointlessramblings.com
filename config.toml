@@ -2,7 +2,6 @@ baseURL = 'https://pointlessramblings.com'
 languageCode = 'en-us'
 
 title = 'Pointless Ramblings'
-theme = 'pointless_v10'
 
 disableKinds = ["section"]
 
