@@ -36,7 +36,7 @@ a:hover {
     color: black;
 }
 
-p, ul {
+p, ul, ol {
     font-size: 20px;
     line-height: 32px;
 }
