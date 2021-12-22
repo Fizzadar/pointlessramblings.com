@@ -50,7 +50,7 @@ blockquote {
 }
 
 code {
-    font-family: Courier;
+    font-family: Courier, Courier New;
     background: #FCFCFC;
     padding: 2px;
     border: 1px dashed #E7E7E7;
@@ -200,7 +200,7 @@ div.post h1, div.post h2 {
     font-weight: normal;
     margin: 0;
     padding: 30px;
-    background: white;
+    /*background: white;*/
     display: inline-block;
 }
 div.post h1.single {
