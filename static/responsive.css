@@ -114,8 +114,12 @@
         color: #E8E6E3;
     }
 
+    pre, code, pre code.hljs {
+        background: #181A1B;
+    }
+
     section#sidebar, section#mast {
-        background: #1D1F20;
+        background-color: #1D1F20;
     }
 
     section#sidebar h4  {
@@ -138,4 +142,13 @@
         color: #E8E6E3;
     }
 
+    div.work a.button {
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        -webkit-apperance: none;
+        background: #1D1F20;
+        color: #C7C3BD;
+    }
 }
