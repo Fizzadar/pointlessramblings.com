@@ -1,8 +1,5 @@
 ---
 title: Follow
-menu:
-    main:
-        weight: 4
 ---
 
 ### Follow me
