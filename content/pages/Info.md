@@ -6,7 +6,7 @@ menu:
         weight: 1
 ---
 
-This blog is written by me, Nick Barrett, a software engineer specialising (for the most part) in infrastructure. Check out some some of my [work]($=url/pages/Work). I often vent/rage tweet [on Twitter](http://twitter.com/Fizzadar).
+This blog is written by Nick Mills-Barrett, a full stack software engineer specialising in infrastructure. Check out some some of my [work]($=url/pages/Work).
 
 
 ### Website Info
