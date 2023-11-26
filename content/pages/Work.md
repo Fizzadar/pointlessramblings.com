@@ -8,16 +8,6 @@ menu:
 A few of my favorite projects I have created or been involved in. Check out my [GitHub profile](https://github.com/Fizzadar) and [recent gists](https://gist.github.com/Fizzadar) for other odds and ends.
 
 <div class="work">
-    <h3>Kanmail</h3>
-    <p class="description"><em>A cross-platform desktop email client that functions like a kanban board.</em></p>
-    <p class="meta"><span>Languages:</span> Python, JavaScript<br /><span>Systems:</span> MacOS, Windows, Linux</p>
-    <p>
-        <a class="button" href="https://kanmail.io">Website</a>
-        <a class="button" href="https://github.com/Oxygem/Kanmail">GitHub</a>
-    </p>
-</div>
-
-<div class="work">
     <h3>pyinfra</h3>
     <p class="description"><em>Deploy stuff by diff-ing the state you want against the remote server.</em></p>
     <p class="meta"><span>Language:</span> Python<br /><span>Systems:</span> Linux, BSD, MacOS</p>
@@ -29,6 +19,16 @@ A few of my favorite projects I have created or been involved in. Check out my [
 </div>
 
 <div class="work">
+    <h3>Kanmail</h3>
+    <p class="description"><em>A cross-platform desktop email client that functions like a kanban board.</em></p>
+    <p class="meta"><span>Languages:</span> Python, JavaScript<br /><span>Systems:</span> MacOS, Windows, Linux</p>
+    <p>
+        <a class="button" href="https://kanmail.io">Website</a>
+        <a class="button" href="https://github.com/Oxygem/Kanmail">GitHub</a>
+    </p>
+</div>
+
+<div class="work">
     <h3>Afterburst</h3>
     <p class="description"><em>Awesome unmetered virtual private server hosting.</em></p>
     <p class="meta"><span>Systems:</span> Linux, KVM<br /><span>Since:</span> 2010</p>
@@ -36,6 +36,9 @@ A few of my favorite projects I have created or been involved in. Check out my [
         <a class="button" href="https://afterburst.com">Website</a>
     </p>
 </div>
+
+<h3>Archive</h3>
+<p>Old projects I no longer maintain or contribute to, but am still proud of.</p>
 
 <div class="work">
     <h3>Elasticsearch Rebalancer</h3>
@@ -60,8 +63,6 @@ A few of my favorite projects I have created or been involved in. Check out my [
     <p class="description"><em>Keeps an eye on your infrastructure and alerts you to changes.</em></p>
     <p class="meta"><span>Languages:</span> Python, JavaScript<br /><span>Systems:</span> Linux</p>
     <p>
-        <a class="button" href="https://servicecanary.com">Website</a>
-        <a class="button" href="https://docs.servicecanary.com">Docs</a>
         <a class="button" href="https://github.com/Oxygem/canaryd">GitHub</a>
     </p>
 </div>
@@ -71,7 +72,6 @@ A few of my favorite projects I have created or been involved in. Check out my [
     <p class="description"><em>A static blog generator with plugin support. <a href="/posts/migrating-this-blog-to-hugo/"><strike>Used on this blog</strike></a>.</em></p>
     <p class="meta"><span>Language:</span> Lua<br /><span>Status:</span> Inactive</p>
     <p>
-        <a class="button" href="https://luapress.org">Website</a>
         <a class="button" href="https://github.com/Fizzadar/Luapress">GitHub</a>
     </p>
 </div>
