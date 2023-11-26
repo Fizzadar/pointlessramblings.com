@@ -1,7 +1,7 @@
-—
+---
 title: Everything is an Abstraction
 date: 2023-11-26
-—
+---
 
 Literally everything is an abstraction, and I’m not just talking about software. [This post presents an ominous future](https://unixsheikh.com/articles/we-have-used-too-many-levels-of-abstractions-and-now-the-future-looks-bleak.html). in which no one actually knows how to build things from the ground up.
 
