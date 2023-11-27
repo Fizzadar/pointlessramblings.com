@@ -1,17 +1,5 @@
 {{ define "mast" }}
-    {{ $done := false }}
-    {{ range $year := (sort (readDir "static/masts/home") "Name" "desc") }}
-        {{ range $month := (slice "December" "November" "October" "September" "August" "July" "June" "May" "April" "March" "February" "January") }}
-            {{ $filename := printf "masts/home/%s/%s.jpg" $year.Name $month }}
-            {{ if fileExists (printf "static/%s" $filename) }}
-                <section id="mast" style="background-image: url('{{ $filename | relURL }}');">
-                </section>
-                {{ $done = true }}
-                {{ break }}
-            {{ end }}
-        {{ end }}
-        {{ if $done }}{{ break }}{{ end }}
-    {{ end }}
+    <section id="mast" class="home"></section>
 {{ end }}
 
 {{ define "main" }}

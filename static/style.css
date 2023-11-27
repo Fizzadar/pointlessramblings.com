@@ -116,34 +116,37 @@ section#sidebar h4 a:hover {
 section#sidebar h4 a:focus, section#sidebar h4 a:active {
     background: #D7D7D7;
 }
-section#sidebar a {
+/*section#sidebar a {
     border: none;
-}
+}*/
 
 nav {
-    margin: 45px 0 0 0;
+    margin: 0px 0 0 0;
 }
 nav li {
     list-style: none;
+    float: left;
 }
 nav a {
     font-size: 30px;
     font-family: 'Kelly Slab';
-    /*float: left;*/
-    /*clear: both;*/
     display: inline-block;
     background: white;
-    padding: 10px;
+    padding: 15px 10px;
     color: #333;
     transition: 100ms;
     text-decoration: none;
+    text-align: right;
+    background: transparent;
+    border-top: 0px solid #F2318D;
 }
 nav a:hover {
-    padding-left: 40px;
     color: #F2318D;
+    border-top-width: 10px;
 }
 nav li.active a {
     color: #F2318D;
+    border-top-width: 10px;
 }
 
 footer {
@@ -169,7 +172,7 @@ footer {
     }
 
 section#mast {
-    height: 422px;
+    height: 206px;
     margin-left: 340px;
     background-position: center 60%;
     background-size: cover;
@@ -177,7 +180,6 @@ section#mast {
     background-color: #F7F7F7;
 }
 section#mast.small {
-    height: 206px;
     position: absolute;
     background-size: auto 100%;
     left: 0;

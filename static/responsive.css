@@ -80,7 +80,7 @@
         clear: none;
     }
     nav a:hover {
-        padding-left: 10px;
+        border-top-width: 0;
     }
 
     footer {
@@ -93,15 +93,16 @@
 
     section#mast {
         margin-left: 0;
+        height: 0;
     }
 
     div.post h1 a:hover, div.post h2 a:hover {
         border-left-width: 0;
     }
-    
+
     div.work {
         width: 100%;
-    } 
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -137,6 +138,7 @@
     nav a {
         background: #181A1B;
         color: #C7C3BD;
+        border-top-color: #AD0C56;
     }
 
     div.post h1 a, div.post h2 a {

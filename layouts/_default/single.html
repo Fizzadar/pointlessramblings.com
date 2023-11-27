@@ -1,7 +1,3 @@
-{{ define "mast" }}
-    <section id="mast" class="small" {{ if isset .Params "mast" }}style="background-image: url('{{ .Site.BaseURL }}/masts/{{ .Params.mast }}.jpg');{{ if isset .Params "mast_background" }} background-color: {{ .Params.mast_background }};{{ end }}{{ if isset .Params "mast_position" }} background-position: {{ .Params.mast_position }};{{ end }}"{{ end }}></section>
-{{ end }}
-
 {{ define "main" }}
 	<div class="post">
 		<h1 class="single {{ if eq .Section "pages" }}page{{ end }}">
