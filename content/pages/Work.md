@@ -5,7 +5,7 @@ menu:
         weight: 3
 ---
 
-A few of my favorite projects I have created or been involved in. Check out my [GitHub profile](https://github.com/Fizzadar) and [recent gists](https://gist.github.com/Fizzadar) for other odds and ends.
+A few of my favorite side projects I have created or been involved in. Check out my [GitHub profile](https://github.com/Fizzadar) and [recent gists](https://gist.github.com/Fizzadar) for other odds and ends.
 
 <div class="work">
     <h3>pyinfra</h3>
@@ -14,7 +14,7 @@ A few of my favorite projects I have created or been involved in. Check out my [
     <p>
         <a class="button" href="https://pyinfra.com">Website</a>
         <a class="button" href="https://docs.pyinfra.com">Docs</a>
-        <a class="button" href="https://github.com/Fizzadar/pyinfra">GitHub</a>
+        <a class="button" href="https://github.com/pyinfra-dev/pyinfra">GitHub</a>
     </p>
 </div>
 
