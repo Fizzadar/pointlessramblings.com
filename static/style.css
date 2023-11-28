@@ -116,9 +116,9 @@ section#sidebar h4 a:hover {
 section#sidebar h4 a:focus, section#sidebar h4 a:active {
     background: #D7D7D7;
 }
-/*section#sidebar a {
-    border: none;
-}*/
+section#sidebar h4:hover + nav a {
+    border-top-color: #D7D7D7;
+}
 
 nav {
     margin: 0px 0 0 0;

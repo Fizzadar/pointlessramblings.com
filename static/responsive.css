@@ -134,6 +134,9 @@
         background: #303234;
         color:  #E8E6E3;
     }
+    section#sidebar h4:hover + nav a {
+        border-top-color: #303234;
+    }
 
     nav a {
         background: #181A1B;
