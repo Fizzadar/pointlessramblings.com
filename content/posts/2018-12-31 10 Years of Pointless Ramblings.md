@@ -20,7 +20,7 @@ First starting out in Wordpress - lots of design experiments/changes in rapid su
     <img src="/img/posts/10_years_pointless/2007_10.png" />
 </div>
 
-Finally in 2008 settling on "sketch" which at the time was featured on a number of "CSS galeries" (do these even exist anymore?!):
+Finally in 2008 settling on "sketch" which at the time was featured on a number of "CSS galleries" (do these even exist anymore?!):
 
 <div class="images">
     <img src="/img/posts/10_years_pointless/2008_04.png" />

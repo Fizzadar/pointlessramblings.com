@@ -1,0 +1,18 @@
+{{ define "mast" }}
+    <section id="mast" class="small info-map"><img src="" /></section>
+{{ end }}
+
+{{ define "main" }}
+    <div class="post">
+        <h1 class="single page">
+            {{ .Title }}
+        </h1>
+        {{ if eq .Section "posts" }}
+        <h1 class="single {{ if eq .Section "pages" }}page{{ end }}">
+            {{ .Title }}
+            <span class="meta">{{ .Date.Format "Mon 02 January 2006" }}</span>
+        </h1>
+        {{ end }}
+        {{ .Content }}
+    </div>
+{{ end }}

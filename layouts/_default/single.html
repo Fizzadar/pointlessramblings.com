@@ -1,11 +1,34 @@
+{{ define "bodyclass" }}
+	{{ if eq .Name "Info" }}blue{{ end }}
+	{{ if eq .Name "Now" }}orange{{ end }}
+	{{ if eq .Name "Work" }}green{{ end }}
+{{ end }}
+
+{{ define "mast" }}
+	{{ if eq .Section "posts" }}<section id="mast" class="small"></section>{{ end }}
+	{{ if eq .Section "pages" }}<section id="mast" class="home"></section>{{ end }}
+{{ end }}
+
 {{ define "main" }}
 	<div class="post">
+		{{ if eq .Section "posts" }}
 		<h1 class="single {{ if eq .Section "pages" }}page{{ end }}">
 			{{ .Title }}
-			{{ if eq .Section "posts" }}
-				<span class="meta">{{ .Date.Format "Mon 02 January 2006" }}</span>
-			{{ end }}
+			<span class="meta">{{ .Date.Format "Mon 02 January 2006" }}</span>
 		</h1>
+		{{ end }}
 		{{ .Content }}
+
+		{{ if eq .Section "posts" }}
+		<ul class="links">
+			{{ if and .Page.Next (eq .Page.Next.Section "posts" ) }}
+			<li>Next: <a class="link-reverse" href="{{ .Page.Next.Permalink }}?ref=footer">{{ .Page.Next.Title | truncate 50 "..." }}</a></li>
+			{{ end }}
+			{{ if and .Page.Prev (eq .Page.Prev.Section "posts") }}
+			<li>Previous: <a class="link-next" href="{{ .Page.Prev.Permalink }}?ref=footer">{{ .Page.Prev.Title | truncate 50 "..." }}</a></li>
+			{{ end }}
+			<li>Archive: <a href="{{ ref . "archive" }}">All Ramblings</a></li>
+		</ul>
+		{{ end }}
 	</div>
 {{ end }}

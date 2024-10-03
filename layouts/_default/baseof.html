@@ -13,18 +13,23 @@
 
     <link rel="stylesheet" type="text/css" href="{{ "highlight/tomorrow.css" | relURL }}" />
     <link rel="stylesheet" type="text/css" href="{{ "fonts.css" | relURL }}" />
-    <link rel="stylesheet" type="text/css" href="{{ "style.css" | relURL }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "layout.css" | relURL }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "colors.css" | relURL }}" />
     <link rel="stylesheet" type="text/css" href="{{ "responsive.css" | relURL }}" />
+
+    {{ block "head" . }}{{ end }}
 
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 </head>
-<body>
+<body class="{{ block "bodyclass" . }}{{ end }}">
 	{{ partial "sidebar" . }}
 
     {{ block "mast" . }}
-        <section id="mast" class="small"></section>
+        {{ if eq .Section "posts" }}
+            <section id="mast" class="small"></section>
+        {{ end }}
     {{ end }}
 
     <section id="content">

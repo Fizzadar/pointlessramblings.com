@@ -1,0 +1,466 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+*::selection {
+    background: #F2318D;
+    color: white;
+}
+*::-moz-selection {
+    background: #F2318D;
+    color: white;
+}
+
+/*
+    Basics */
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Asap;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: 100ms;
+}
+
+p, ul, ol {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+blockquote {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    color: #A7A7A7;
+    margin: 0 0 0 30px;
+}
+
+code {
+    font-family: Courier, Courier New;
+    background: #FCFCFC;
+    padding: 2px;
+    border: 1px dashed #E7E7E7;
+}
+pre {
+    border: 1px dashed #E7E7E7;
+    border-left: none;
+    background: #FCFCFC;
+}
+pre code, pre code.hljs {
+    border: none;
+}
+code::selection, pre::selection, pre *::selection {
+    background: green;
+    color: white;
+}
+code::-moz-selection, pre::-moz-selection, pre *::-moz-selection {
+    background: green;
+    color: white;
+}
+
+hr {
+    width: 500px;
+    text-align: left;
+    align-content: left;
+    display: inline-block;
+    border: 1px dashed #D7D7D7;
+    border-width: 1px 0 0 0;
+    margin: 30px 0 30px 30px;
+}
+
+
+/*
+    Layout */
+
+section#sidebar {
+    width: 340px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 30px;
+    border-right: 2px solid black;
+}
+section#sidebar h4 {
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    font-size: 60px;
+    margin: -30px -30px 0 -30px;
+    text-align: right;
+}
+section#sidebar h4 a {
+    color: white;
+    padding: 30px;
+    display: block;
+    transition: 100ms;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    height: 206px;
+}
+section#sidebar h4 a:focus, section#sidebar h4 a:active {
+    background: #D7D7D7;
+}
+section#sidebar h4:hover + nav a {
+    border-top-color: #D7D7D7;
+}
+
+div#titlenav nav {
+/*    display: none;*/
+}
+div#titlenav:hover nav {
+/*    display: block;*/
+}
+
+nav {
+    padding: 10px 130px 0 0;
+    margin-left: -200px;
+    margin-right: -130px;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+nav a {
+    font-size: 60px;
+    font-family: 'Kelly Slab';
+    display: inline-block;
+    background: white;
+    padding: 15px 10px;
+    color: #333;
+    transition: 100ms;
+    text-decoration: none;
+    text-align: right;
+    background: transparent;
+}
+nav a:hover {
+    color: var(--color-pink);
+}
+nav li.active a {
+    color: var(--color-pink);
+}
+nav li.blue a:hover, nav li.active.blue a {
+    color: var(--color-blue);
+}
+nav li.orange a:hover, nav li.active.orange a {
+    color: var(--color-orange);
+}
+nav li.green a:hover, nav li.active.green a {
+    color: var(--color-green);
+}
+
+footer {
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    color: #C7C7C7;
+}
+footer img {
+    width: 32px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+footer a {
+    color: #A7A7A7;
+}
+footer a:hover {
+    color: #333;
+}
+
+section#mast {
+    height: 206px;
+    margin-left: 340px;
+    background-position: center 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+}
+section#mast.small {
+    position: absolute;
+    background-size: auto 100%;
+    left: 0;
+    right: 0;
+}
+section#mast.home {
+    background-color: transparent;
+}
+
+section#content {
+    margin-left: 340px;
+    position: relative;
+    padding-bottom: 36px;
+}
+section#content img {
+    max-width: 100%;
+}
+
+div.post {}
+div.post h1, div.post h2 {
+    font-size: 38px;
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    margin: 0;
+    padding: 30px;
+    color: white;
+    display: inline-block;
+}
+div.post h1.single {
+    margin: 60px 0 10px 0;
+}
+div.post h1.single.page {
+    margin: 60px 0 40px 0;
+}
+div.post h1 span.meta, div.post h2 span.meta {
+    font-family: Asap;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+div.post h2 span.meta {
+    color: #666;
+}
+div.post h1 a, div.post h2 a {
+    display: block;
+    padding: 30px;
+    margin: -30px;
+    transition: 100ms;
+    text-decoration: none;
+}
+
+div.post p,
+div.post blockquote,
+div.post ul,
+div.post h3,
+div.post pre {
+    padding: 0 30px;
+    max-width: 790px;
+}
+div.post p {
+    margin: 26px 0;
+}
+div.post pre {
+    max-width: 760px;
+}
+div.post > ul {
+    margin-left: 30px;
+}
+div.post h3 {
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    font-size: 28px;
+    margin: 50px 0 0 0;
+}
+div.post h4 {
+    font-family: 'Kelly Slab';
+    font-weight: normal;
+    font-size: 24px;
+    margin: 30px 0 0 30px;
+    color: #666;
+}
+div.post div.images {
+    margin: 0 30px;
+}
+div.post div.images img {
+    box-shadow: 0px 0px 1px #DDDDDD;
+    margin-bottom: 10px;
+}
+
+div.post div.toc > ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+div.post div.toc > ul > li {
+    list-style: none;
+}
+div.post div.toc > ul > li > ul {
+    margin: 0;
+    padding: 0;
+}
+div.post div.toc > ul > li > ul > li {
+    list-style: none;
+}
+
+div.post ul.links {
+    color: #C7C7C7;
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 60px;
+}
+div.post ul.links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+div.post ul.links a {
+    color: #A7A7A7;
+}
+div.post ul.links a:hover {
+    color: #333;
+}
+
+div.post.intro p {
+    background: var(--color-pink);
+    color: white;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 20px 30px;
+    border: 2px solid black;
+    border-width: 0 2px 2px 0;
+    transition: 100ms;
+    pointer-events: none;
+}
+div.post.intro p:hover {
+    background: var(--color-blue);
+}
+div.post.intro p a {
+    color: white;
+    pointer-events: all;
+}
+div.post.intro p a:hover {
+    text-decoration-color: #F7F7F7;
+}
+
+
+/* Work page */
+
+div.work {
+    display: inline-block;
+    width: 45%;
+}
+div.work p.description {
+    margin-bottom: 5px;
+}
+div.work p.meta {
+    margin-top: 0;
+    font-size: 16px;
+    color: #666;
+}
+div.work p.meta span {
+    color: #A7A7A7;
+}
+div.work a.button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    -webkit-apperance: none;
+    background: #F7F7F7;
+    color: #333;
+}
+div.work a.button:hover {
+    background: var(--color-pink);
+    color: white;
+}
+
+
+/* Info page */
+
+img.headshot {
+    float: right;
+    max-height: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    pointer-events: none;
+    transition: 100ms;
+}
+
+.color-blocks {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    pointer-events: none;
+}
+.color-blocks .color-block {
+    height: 150px;
+    line-height: 150px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    pointer-events: all;
+    transition: 100ms;
+    border: 2px solid transparent;
+}
+.color-blocks:hover .color-block {
+    opacity: 0.5;
+}
+.color-blocks .color-block:hover {
+    border: 2px solid black;
+    opacity: 1;
+}
+.color-blocks .color-block:nth-child(1):hover {
+    border-left-color: transparent;
+}
+.color-blocks .color-block:nth-child(5):hover {
+    border-left-color: transparent;
+}
+.color-blocks .color-block:nth-child(9):hover {
+    border-left-color: transparent;
+}
+.color-blocks .color-block:nth-child(4):hover {
+    border-right-color: transparent;
+}
+.color-blocks .color-block:nth-child(8):hover {
+    border-right-color: transparent;
+}
+.color-blocks .color-block:nth-child(12):hover {
+    border-right-color: transparent;
+}
+
+.color-block.pink {
+    background: var(--color-pink);
+}
+.color-block.blue {
+    background: var(--color-blue);
+}
+.color-block.orange {
+    background: var(--color-orange);
+}
+.color-block.green {
+    background: var(--color-green);
+}
+
+.color-block.pink-dark {
+    background: var(--color-pink-dark);
+}
+.color-block.blue-dark {
+    background: var(--color-blue-dark);
+}
+.color-block.orange-dark {
+    background: var(--color-orange-dark);
+}
+.color-block.green-dark {
+    background: var(--color-green-dark);
+}
+
+.color-block.pink-dark-dark {
+    background: var(--color-pink-dark-dark);
+}
+.color-block.blue-dark-dark {
+    background: var(--color-blue-dark-dark);
+}
+.color-block.orange-dark-dark {
+    background: var(--color-orange-dark-dark);
+}
+.color-block.green-dark-dark {
+    background: var(--color-green-dark-dark);
+}
+
+
+
+section#mast.info-map {
+    background-image: url(/img/pages/now/map.png);
+}

@@ -3,6 +3,8 @@ title: Work
 menu:
     main:
         weight: 3
+        params:
+            color: green
 ---
 
 A few of my favorite side projects I have created or been involved in. Check out my [GitHub profile](https://github.com/Fizzadar) and [recent gists](https://gist.github.com/Fizzadar) for other odds and ends.

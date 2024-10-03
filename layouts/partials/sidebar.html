@@ -1,20 +1,19 @@
 <section id="sidebar">
-    <h4><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h4>
-
-	<nav>
-        {{ $currentPage := . }}
-		{{ with .Site.Menus.main }}
-			{{ range . }}
-				<li{{ if $currentPage.IsMenuCurrent .Menu . }} class="active"{{ end }}><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
-		{{ end }}
-	</nav>
+    <div id="titlenav">
+        <h4><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h4>
+    	<nav>
+            {{ $currentPage := . }}
+    		{{ with .Site.Menus.main }}
+    			{{ range . }}
+    				<li class="{{ if $currentPage.IsMenuCurrent .Menu . }}active{{ end }} {{.Params.color }}"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+    			{{ end }}
+    		{{ end }}
+    	</nav>
+    </div>
 
     <footer>
         <img src="{{ "img/keepcalm.png" | relURL }}" />
-        Est. 2006 &middot; <a href="{{ "pages/copyright" | relURL }}"><strike>&copy;</strike> no copyright</a><br />
-        <span class="right">
-            Built {{ if and .IsPage .GitInfo (ne .Page.Title "Archive") }}{{ .GitInfo.AuthorDate.Format "Jan 02" }}{{ else }}{{ now.Format "Jan 02" }}{{ end }}
-        </span>
+        Est. 2006 &middot; By <a href="https://fizzadar.com">Fizzadar</a><br />
+        Built {{ if and .IsPage .GitInfo (ne .Page.Title "Archive") }}{{ .GitInfo.AuthorDate.Format "Jan 02" }}{{ else }}{{ now.Format "Jan 02" }}{{ end }} &middot; Updated {{ .Lastmod.Format "Jan 02" }}
     </footer>
 </section>
