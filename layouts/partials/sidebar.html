@@ -13,7 +13,7 @@
 
     <footer>
         <img src="{{ "img/keepcalm.png" | relURL }}" />
+        Generated {{ if and .IsPage .GitInfo (ne .Page.Title "Archive") }}{{ .GitInfo.AuthorDate.Format "Jan 02" }}{{ else }}{{ now.Format "Jan 02" }}{{ end }}<br />
         Est. 2006 &middot; By <a href="https://fizzadar.com">Fizzadar</a><br />
-        Built {{ if and .IsPage .GitInfo (ne .Page.Title "Archive") }}{{ .GitInfo.AuthorDate.Format "Jan 02" }}{{ else }}{{ now.Format "Jan 02" }}{{ end }} &middot; Updated {{ .Lastmod.Format "Jan 02" }}
     </footer>
 </section>

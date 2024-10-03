@@ -68,6 +68,10 @@ body.green {
         color:  #E8E6E3;
     }
 
+    footer a:hover {
+        color: #333;
+    }
+
     div.post.intro p {
         background: var(--color-light);
     }
@@ -125,11 +129,18 @@ body.green {
         color:  #E8E6E3;
     }
 
+    footer a:hover {
+        color: #E8E6E3;
+    }
+
     div.post.intro p {
         background: var(--color-dark);
     }
     div.post.intro p:hover {
         background: var(--color-blue-dark);
+    }
+    div.post ul.links a:hover {
+        color: #E8E6E3;
     }
 
     nav a {
