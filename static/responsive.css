@@ -59,28 +59,30 @@
     }
     section#sidebar h4 a {
         padding: 10px 30px;
+        height: auto;
+        text-align: left;
     }
 
     nav {
-        margin: 0 0 0 -10px;
-        display: flex;
-        flex-wrap: wrap;
+        display: none;
     }
-    nav.home {
-        float: left;
+
+    div.post h3 {
+        margin-top: 30px;
     }
-    nav.home li {
-        float: left;
+
+    div.post h1.single, div.post h1.single.page {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding: 10px 30px;
     }
-    nav li {
-        width: auto;
-        display: flex;
-    }
-    nav a {
-        clear: none;
-    }
-    nav a:hover {
-        border-top-width: 0;
+
+    div.post.intro p {
+        width: 100%;
+        background: var(--color-blue-dark);
+        border-width: 0 0 2px 0;
+        margin-top: -2px;
+        margin-bottom: 0;
     }
 
     footer {
