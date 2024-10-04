@@ -1,12 +1,9 @@
 {{ define "mast" }}
-    <section id="mast" class="small info-map"><img src="" /></section>
+    <section id="mast" class="home info-map"><img src="" /></section>
 {{ end }}
 
 {{ define "main" }}
     <div class="post">
-        <h1 class="single page">
-            {{ .Title }}
-        </h1>
         {{ if eq .Section "posts" }}
         <h1 class="single {{ if eq .Section "pages" }}page{{ end }}">
             {{ .Title }}

@@ -1,9 +1,9 @@
 ---
-title: Archive
+title: Ramble
 layout: archive
-# menu:
-#     main:
-#         weight: 4
-#         params:
-#             color: orange
+menu:
+    main:
+        weight: 4
+        params:
+            color: orange
 ---

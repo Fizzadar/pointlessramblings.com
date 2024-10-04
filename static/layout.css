@@ -212,18 +212,21 @@ div.post h1, div.post h2 {
     display: inline-block;
 }
 div.post h1.single {
-    margin: 60px 0 10px 0;
+    margin: 40px 0 30px 0;
 }
 div.post h1.single.page {
     margin: 60px 0 40px 0;
 }
 div.post h1 span.meta, div.post h2 span.meta {
     font-family: Asap;
-    color: white;
-    font-size: 16px;
+    color: #DDD;
+    font-size: 14px;
     display: block;
     margin-top: 10px;
     margin-left: 2px;
+}
+div.post h1 span.meta date {
+    color: white;
 }
 div.post h2 span.meta {
     color: #666;
@@ -394,26 +397,26 @@ img.headshot {
 .color-blocks:hover .color-block {
     opacity: 0.5;
 }
-.color-blocks .color-block:hover {
+.color-blocks .color-block:hover, .color-blocks .color-block:active {
     border: 2px solid black;
     opacity: 1;
 }
-.color-blocks .color-block:nth-child(1):hover {
+.color-blocks .color-block:nth-child(1):hover, .color-blocks .color-block:nth-child(1):active {
     border-left-color: transparent;
 }
-.color-blocks .color-block:nth-child(5):hover {
+.color-blocks .color-block:nth-child(5):hover, .color-blocks .color-block:nth-child(5):active {
     border-left-color: transparent;
 }
-.color-blocks .color-block:nth-child(9):hover {
+.color-blocks .color-block:nth-child(9):hover, .color-blocks .color-block:nth-child(9):active {
     border-left-color: transparent;
 }
-.color-blocks .color-block:nth-child(4):hover {
+.color-blocks .color-block:nth-child(4):hover, .color-blocks .color-block:nth-child(4):active {
     border-right-color: transparent;
 }
-.color-blocks .color-block:nth-child(8):hover {
+.color-blocks .color-block:nth-child(8):hover, .color-blocks .color-block:nth-child(8):active {
     border-right-color: transparent;
 }
-.color-blocks .color-block:nth-child(12):hover {
+.color-blocks .color-block:nth-child(12):hover, .color-blocks .color-block:nth-child(12):active {
     border-right-color: transparent;
 }
 

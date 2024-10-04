@@ -15,8 +15,8 @@
 		<h1 class="single {{ if eq .Section "pages" }}page{{ end }}">
 			{{ .Title }}
 			<span class="meta">
-				{{ .Date.Format "Mon 02 January 2006" }}
-				{{ if ne .Lastmod .Date }}{{ .Lastmod.Format "Mon 02 January 2006" }}{{ end }}
+				Created: <date>{{ .Date.Format "Mon 02 Jan 2006" }}</date>
+				{{ if ne (.Date.Format "Mon 02 Jan 2006") (.Lastmod.Format "Mon 02 Jan 2006") }}&middot; Updated: <date>{{ .Lastmod.Format "Mon 02 Jan 2006" }}</date>{{ end }}
 			</span>
 		</h1>
 		{{ end }}

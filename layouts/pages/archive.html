@@ -1,12 +1,11 @@
 {{ define "mast" }}
-    <section id="mast" class="small"></section>
+    <section id="mast" class="home"></section>
 {{ end }}
 
 {{ define "main" }}
     <div class="post">
-        <h1 class="single page">
-            {{ .Title }}
-        </h1>
+        <p>Welcome to the Pointless Ramblings archive:</p>
+
         {{ range (where .Site.RegularPages "Section" "posts") }}
             {{ .Render "post-link" }}
         {{ end }}
