@@ -53,6 +53,7 @@
         position: relative;
         width: 100%;
         padding-bottom: 0;
+        border-right: 0;
     }
     section#sidebar h4 {
         font-size: 40px;
@@ -80,7 +81,7 @@
     div.post.intro p {
         width: 100%;
         background: var(--color-blue);
-        border-width: 0 0 2px 0;
+        border-width: 2px 0 2px 0;
         margin-top: -2px;
         margin-bottom: 0;
     }
@@ -96,6 +97,7 @@
     section#mast {
         margin-left: 0;
         height: 0;
+        border-bottom: 0;
     }
 
     div.post h1 a:hover, div.post h2 a:hover {
@@ -108,6 +110,14 @@
 
     img.headshot {
         max-height: 200px;
+    }
+
+    div.username-links {
+        margin: 0 5px;
+
+        a {
+            text-align: center;
+        }
     }
 }
 

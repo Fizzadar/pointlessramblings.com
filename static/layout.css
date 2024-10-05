@@ -270,11 +270,15 @@ div.post h4 {
     color: #666;
 }
 div.post div.images {
-    margin: 0 30px;
-}
-div.post div.images img {
-    box-shadow: 0px 0px 1px #DDDDDD;
-    margin-bottom: 10px;
+    margin: 0 0px;
+
+    img {
+        box-shadow: 0px 0px 1px #DDDDDD;
+        margin-bottom: 60px;
+    }
+    img:last-child {
+        margin-bottom: 0;
+    }
 }
 
 div.post div.toc > ul {
@@ -377,6 +381,24 @@ img.headshot {
     transition: 100ms;
 }
 
+div.username-links {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 790px;
+
+    svg {
+        width: 64px;
+        transition: 100ms;
+    }
+
+    a {
+        background: transparent;
+        display: inline-block;
+        width: 20%;
+    }
+}
+
 .color-blocks {
     margin-top: 30px;
     display: flex;
@@ -463,7 +485,8 @@ img.headshot {
 }
 
 
+/* Now page */
 
-section#mast.info-map {
+section#mast.now-map {
     background-image: url(/img/pages/now/map.png);
 }

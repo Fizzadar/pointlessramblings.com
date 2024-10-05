@@ -5,6 +5,8 @@ menu:
         weight: 3
         params:
             color: green
+aliases:
+- /pages/work
 ---
 
 A few of my favorite side projects I have created or been involved in. Check out my [GitHub profile](https://github.com/Fizzadar) and [recent gists](https://gist.github.com/Fizzadar) for other odds and ends.

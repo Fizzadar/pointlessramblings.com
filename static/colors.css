@@ -96,6 +96,15 @@ body.green {
         background: #1D1F20;
         color: #C7C3BD;
     }
+
+    div.username-links {
+        a svg {
+            fill: black;
+        }
+        a:hover svg {
+            fill: var(--color-blue);
+        }
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -164,6 +173,15 @@ body.green {
         -webkit-apperance: none;
         background: #1D1F20;
         color: #C7C3BD;
+    }
+
+    div.username-links {
+        a svg {
+            fill: white;
+        }
+        a:hover svg {
+            fill: var(--color-blue);
+        }
     }
 }
 

@@ -1,12 +1,11 @@
 {{ define "bodyclass" }}
 	{{ if eq .Name "Info" }}blue{{ end }}
-	{{ if eq .Name "Now" }}orange{{ end }}
 	{{ if eq .Name "Work" }}green{{ end }}
 {{ end }}
 
 {{ define "mast" }}
 	{{ if eq .Section "posts" }}<section id="mast" class="small"></section>{{ end }}
-	{{ if eq .Section "pages" }}<section id="mast" class="home"></section>{{ end }}
+	{{ if eq .Section "" }}<section id="mast" class="home"></section>{{ end }}
 {{ end }}
 
 {{ define "main" }}
@@ -30,7 +29,7 @@
 			{{ if and .Page.Prev (eq .Page.Prev.Section "posts") }}
 			<li>Previous: <a class="link-next" href="{{ .Page.Prev.Permalink }}?ref=footer">{{ .Page.Prev.Title | truncate 50 "..." }}</a></li>
 			{{ end }}
-			<li>Archive: <a href="{{ ref . "archive" }}">All Ramblings</a></li>
+			<li>Archive: <a href="{{ ref . "ramble" }}">All Ramblings</a></li>
 		</ul>
 		{{ end }}
 	</div>

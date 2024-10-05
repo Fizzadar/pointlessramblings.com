@@ -8,7 +8,7 @@
 
 {{ define "main" }}
     <div class="post intro">
-        <p>Welcome to <a href="{{ ref . "pages/info" }}">my slice</a> of the internet</p>
+        <p>Welcome to <a href="{{ ref . "info" }}">my slice</a> of the internet</p>
     </div>
 
     <div class="post">
@@ -17,7 +17,7 @@
             {{ .Render "post-link" }}
         {{ end }}
         <div class="post"><h2>
-            <a class="right" href="{{ ref . "pages/archive" }}">All ramblings &rarr;</a>
+            <a class="right" href="{{ ref . "ramble" }}">All ramblings &rarr;</a>
         </h2></div>
     </div>
 {{ end }}
