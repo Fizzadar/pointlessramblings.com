@@ -87,16 +87,6 @@ body.green {
         color: black;
     }
 
-    div.work a.button {
-        padding: 10px;
-        font-size: 18px;
-        border: none;
-        cursor: pointer;
-        -webkit-apperance: none;
-        background: #1D1F20;
-        color: #C7C3BD;
-    }
-
     div.username-links {
         a svg {
             fill: black;
@@ -104,6 +94,20 @@ body.green {
         a:hover svg {
             fill: var(--color-blue);
         }
+    }
+
+    div.work-items {
+        background: #F7F7F7;
+    }
+
+    div.work a.button {
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        -webkit-apperance: none;
+        background: #D7D7D7;
+        color: #777;
     }
 }
 
@@ -181,6 +185,16 @@ body.green {
         }
         a:hover svg {
             fill: var(--color-blue);
+        }
+    }
+
+    div.work-items {
+        background: #121212;
+
+        .work {
+            a.button {
+                background
+            }
         }
     }
 }
