@@ -69,7 +69,7 @@ In an agentless system, where a single process handles the entire deployment, pe
 
 ### 5. Package, extend, distribute
 
-pyinfra leverages Python's existing packaging infrastructure to create [re-usable deploys](https://pyinfra.readthedocs.io/page/api/deploys.html). There are deploys for [etcd clusters](https://github.com/Fizzadar/pyinfra-etcd), [Docker](https://github.com/Fizzadar/pyinfra-docker), [Kubernetes clusters](https://github.com/EDITD/pyinfra-kubernetes), [Prometheus](https://github.com/grantstephens/pyinfra-prometheus) and more.
+pyinfra leverages Python's existing packaging infrastructure to create [re-usable deploys](https://docs.pyinfra.com/en/3.x/api/deploys.html). There are deploys for [etcd clusters](https://github.com/Fizzadar/pyinfra-etcd), [Docker](https://github.com/Fizzadar/pyinfra-docker), [Kubernetes clusters](https://github.com/EDITD/pyinfra-kubernetes), [Prometheus](https://github.com/grantstephens/pyinfra-prometheus) and more.
 
 .
 
