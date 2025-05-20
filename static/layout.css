@@ -346,33 +346,91 @@ div.post.intro p a:hover {
 
 /* Work page */
 
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .wide {
+        width: 100%;
+    }
+
+    .half {
+        width: 50%;
+    }
+
+    .third {
+        width: 32%;
+    }
+}
+
+div.work-items {
+    padding: 40px 0;
+}
 div.work {
     display: inline-block;
-    width: 45%;
+
+    h3 {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    p.description {
+        margin-bottom: 5px;
+    }
+    p.meta {
+        margin-top: 0;
+        font-size: 16px;
+        color: #666;
+    }
+    p.meta span {
+        color: #A7A7A7;
+    }
+    a.button {
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        -webkit-apperance: none;
+        background: #F7F7F7;
+        color: #333;
+    }
+    a.button:hover {
+        background: var(--color-green);
+        color: white;
+    }
 }
-div.work p.description {
-    margin-bottom: 5px;
+
+div.timeline {
+    max-width: 790px;
 }
-div.work p.meta {
-    margin-top: 0;
-    font-size: 16px;
-    color: #666;
-}
-div.work p.meta span {
-    color: #A7A7A7;
-}
-div.work a.button {
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    -webkit-apperance: none;
-    background: #F7F7F7;
-    color: #333;
-}
-div.work a.button:hover {
-    background: var(--color-pink);
-    color: white;
+div.timeline-item {
+    width: 100%;
+
+    h5 {
+        font-weight: normal;
+        margin: 0;
+        opacity: 0.8;
+        font-size: 15px;
+
+        &::before {
+            content: "•";
+            font-size: 30px;
+            line-height: 0;
+            position: absolute;
+            margin: 8px 0 0 -14px;
+            opacity: 0.4;
+        }
+    }
+
+    h4 {
+        margin: 10px 0 0 0;
+        font-size: 24px;
+    }
+
+    p {
+        margin: 10px 0 60px 0;
+    }
 }
 
 
@@ -389,7 +447,7 @@ img.headshot {
 }
 
 div.username-links {
-    margin: 0 30px;
+    margin: 40px 30px;
     display: flex;
     justify-content: space-between;
     max-width: 790px;
