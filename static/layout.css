@@ -211,7 +211,7 @@ div.post h1, div.post h2 {
     font-weight: normal;
     margin: 0;
     padding: 30px;
-    color: white;
+    /*color: white;*/
     display: inline-block;
 }
 div.post h1.single {
@@ -222,17 +222,17 @@ div.post h1.single.page {
 }
 div.post h1 span.meta, div.post h2 span.meta {
     font-family: Asap;
-    color: #DDD;
     font-size: 14px;
     display: block;
     margin-top: 10px;
     margin-left: 2px;
+    color: #A7A7A7;
 }
 div.post h1 span.meta date {
-    color: white;
+    color: #777;
 }
 div.post h2 span.meta {
-    color: #666;
+    color: #A7A7A7;
 }
 div.post h1 a, div.post h2 a {
     display: block;

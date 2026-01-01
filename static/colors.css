@@ -57,7 +57,7 @@ body.green {
     }
 
     section#mast {
-        background-color: var(--color-dark);
+        background-color: #F7F7F7;
     }
 
     section#sidebar h4  {
@@ -131,7 +131,7 @@ body.green {
     }
 
     section#mast {
-        background-color: var(--color-dark-dark);
+        background-color: black;
     }
 
     section#sidebar h4  {
